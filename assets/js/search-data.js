@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "M.Sc. Student in Electrical and Electronic Engineering at EPFL | Sharif University of Technology Alumnus. The complete version of my CV is available through the PDF above.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
