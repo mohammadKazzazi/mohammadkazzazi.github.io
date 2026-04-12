@@ -1,10 +1,10 @@
 cv:
   name: Mohammad Kazzazi
-  headline: M.Sc. Student in Electrical and Electronic Engineering at EPFL | Sharif University of Technology Alumnus
+  headline: "M.Sc. Student in Electrical and Electronic Engineering at EPFL | Sharif University of Technology Alumnus"
   email: smohammadok@gmail.com
   location: Athens, Greece
   photo:
-  summary: Electrical engineer and incoming M.Sc. student at EPFL with a background in machine learning, signal processing, computer vision, and hardware-aware AI systems. My work spans research, teaching, and applied engineering, with interests in intelligent systems that connect modern learning methods to practical real-world applications.
+  summary: "Electrical engineer and incoming M.Sc. student at EPFL with a background in machine learning, signal processing, computer vision, and hardware-aware AI systems. My work spans research, teaching, and applied engineering, with interests in intelligent systems that connect modern learning methods to practical real-world applications."
 
   social_networks:
     - network: GitHub
@@ -21,7 +21,7 @@ cv:
         end_date: present
         location: Lausanne, Switzerland
         highlights:
-          - Starting in September 2026.
+          - "Starting in September 2026."
 
       - institution: Sharif University of Technology
         area: Electrical Engineering (Digital Systems Branch)
@@ -30,9 +30,9 @@ cv:
         end_date: 2026
         location: Tehran, Iran
         highlights:
-          - GPA: 18.54/20 (3.95/4).
-          - Top 15% cumulative GPA among B.Sc. EE students of the 2021 class.
-          - Top 3 in the Digital Systems major.
+          - "GPA: 18.54/20 (3.95/4)."
+          - "Top 15% cumulative GPA among B.Sc. EE students of the 2021 class."
+          - "Top 3 in the Digital Systems major."
 
       - institution: Rouzbeh Educational Complex
         area: Mathematics and Physics
@@ -41,7 +41,7 @@ cv:
         end_date: 2021
         location: Tehran, Iran
         highlights:
-          - GPA: 19.49/20 (4/4).
+          - "GPA: 19.49/20 (4/4)."
 
     Experience:
       - company: Aalto University
@@ -49,154 +49,62 @@ cv:
         start_date: 2025-07
         end_date: present
         location: Espoo, Finland
-        summary: Working on research projects at the intersection of AI and practical systems.
+        summary: "Working on research projects at the intersection of AI and practical systems."
 
       - company: Raderon AI Laboratory
         position: Research Assistant
         start_date: 2024-08
         end_date: 2025-01
         location: British Columbia, Canada
-        summary: Contributed to research in AI-driven medical image analysis.
+        summary: "Contributed to research in AI-driven medical image analysis."
 
       - company: Artificial Creature Laboratory (ACL), Sharif University of Technology
         position: Research Assistant
         start_date: 2024-07
         end_date: 2024-09
         location: Tehran, Iran
-        summary: Worked under the supervision of Prof. Saeed Bagheri on a smart socket switch for a custom AI platform with commercialization potential.
+        summary: "Worked under the supervision of Prof. Saeed Bagheri on a smart socket switch for a custom AI platform with commercialization potential."
         highlights:
-          - Explored IoT platforms and networking solutions for intelligent devices.
-          - Worked with Arduino and ESP32/8266-based systems.
+          - "Explored IoT platforms and networking solutions for intelligent devices."
+          - "Worked with Arduino and ESP32/8266-based systems."
 
       - company: Sharif University of Technology
         position: Teaching Assistant / Laboratory Teaching Assistant
         start_date: 2022-09
         end_date: 2025-12
         location: Tehran, Iran
-        summary: Supported several electrical engineering and programming courses through teaching classes, assignments, projects, and laboratory sessions.
+        summary: "Supported several electrical engineering and programming courses through teaching classes, assignments, projects, and laboratory sessions."
         highlights:
-          - Engineering Probability and Statistics (Project) — Fall 2025
-          - Logic Circuit and Digital Systems (Assignments) — Fall 2024
-          - Mathematical Methods in Engineering (Assignments) — Spring 2024
-          - Communication Systems (Projects) — Spring 2024
-          - Logic Circuit and Digital Systems (Assignments) — Spring 2024
-          - Logic Circuit and Digital Systems (Lab TA) — Fall 2023
-          - Logic Circuit and Digital Systems (Assignments) — Fall 2023
-          - Object-Oriented Programming (Project) — Spring 2023
-          - Basic Programming (Teaching Class) — Fall 2022
+          - "Engineering Probability and Statistics (Project) — Fall 2025"
+          - "Logic Circuit and Digital Systems (Assignments) — Fall 2024"
+          - "Mathematical Methods in Engineering (Assignments) — Spring 2024"
+          - "Communication Systems (Projects) — Spring 2024"
+          - "Logic Circuit and Digital Systems (Assignments) — Spring 2024"
+          - "Logic Circuit and Digital Systems (Lab TA) — Fall 2023"
+          - "Logic Circuit and Digital Systems (Assignments) — Fall 2023"
+          - "Object-Oriented Programming (Project) — Spring 2023"
+          - "Basic Programming (Teaching Class) — Fall 2022"
 
     Publications:
-      - title: Enhancing Skin Cancer Diagnosis Using Late Discrete Wavelet Transform and New Swarm-Based Optimizers
+      - title: "Enhancing Skin Cancer Diagnosis Using Late Discrete Wavelet Transform and New Swarm-Based Optimizers"
         authors:
-          - R. Mousa
-          - Mohammad Morsali
-          - S. Chamani
-          - "*Mohammad Kazzazi*"
-          - P. Hatami
-          - S. Sarabi
-        journal: Machine Learning with Applications (Elsevier)
+          - "R. Mousa"
+          - "Mohammad Morsali"
+          - "S. Chamani"
+          - "Mohammad Kazzazi"
+          - "P. Hatami"
+          - "S. Sarabi"
+        journal: "Machine Learning with Applications (Elsevier)"
         date: 2026-03
-        url: https://www.sciencedirect.com/science/article/pii/S266682702500194X
-        summary: Published work on improving skin cancer diagnosis using late discrete wavelet transform and swarm-based optimization methods.
+        url: "https://www.sciencedirect.com/science/article/pii/S266682702500194X"
+        summary: "Published work on improving skin cancer diagnosis using late discrete wavelet transform and swarm-based optimization methods."
 
-      - title: Minimal-Sensor TDOA/FDOA Fusion for Moving-Source IoT Localization: A Closed-Form, Two-Stage, Low-Complexity Estimator
+      - title: "Minimal-Sensor TDOA/FDOA Fusion for Moving-Source IoT Localization: A Closed-Form, Two-Stage, Low-Complexity Estimator"
         authors:
-          - "*Mohammad Kazzazi*"
-          - Mohammad Morsali
-          - R. Amiri
-        journal: arXiv
+          - "Mohammad Kazzazi"
+          - "Mohammad Morsali"
+          - "R. Amiri"
+        journal: "arXiv"
         date: 2025-10
-        url: https://arxiv.org/abs/2510.04160
-        summary: Preprint on source localization for moving-source IoT systems using a closed-form two-stage estimator.
-
-    In-Progress:
-      - name: Towards Smart Manufacturing: Vision-Language Models for Worker Assistance in Packing Tasks
-        date: Present
-        location: Aalto University
-        summary: Ongoing research on applying vision-language models to worker assistance in manufacturing and packing settings.
-
-      - name: A Cost–Utility Framework for AI Model Selection in Operations Management
-        date: Present
-        location: Aalto University
-        summary: Ongoing research on principled AI model selection for operations management applications.
-
-    Awards:
-      - name: Fully Funded Admission to Sharif University of Technology
-        date: 2021
-        summary: Accepted to the first-ranked university in Iran with a fully funded scholarship.
-
-      - name: National Universities Entrance Exam (Konkour)
-        date: 2021
-        summary: Ranked in the top 0.1% among 180,000 participants.
-
-      - name: Academic Standing
-        date: 2025
-        summary: Ranked in the top 15% cumulative GPA among B.Sc. EE students of the 2021 class, including top 3 in the Digital Systems major.
-
-    Skills:
-      - label: Programming
-        details: Python (OpenCV, PyTorch, scikit-learn, pandas), Java, Verilog, C/C++, LaTeX
-
-      - label: Additional Technical Skills
-        details: CUDA, Assembly, HTML/CSS, MySQL, Git
-
-      - label: Software and Hardware Tools
-        details: MATLAB, Xilinx ISE, ModelSim, Vivado, LTSPICE, Arduino IDE, Arduino Uno, ESP32/8266
-
-      - label: Soft Skills
-        details: Team player, Communication, Work ethic, Empathy, Active listening
-
-    Languages:
-      - label: Persian
-        details: Native proficiency
-
-      - label: English
-        details: Fluent (TOEFL: 105)
-
-      - label: Spanish
-        details: A1
-
-    Interests:
-      - label: Research
-        details: Deep Learning, Artificial Neural Networks, Statistical Machine Learning, Optimization, LLMs, VLMs, Communication Systems, Localization, Signal Processing, Computer Vision, Medical Image Analysis, AI Accelerators, FPGA Acceleration for Neural Networks
-
-      - label: Personal
-        details: Football, Volleyball, Gym, Travel, Culture, Classical Persian Music, Guitar
-
-    Projects:
-      - name: Membership Inference Attack against Diffusion Models
-        summary: Course project in machine learning security and privacy.
-
-      - name: Machine Unlearning and Membership Inference Attack
-        summary: Project focused on privacy, data removal, and model behavior.
-
-      - name: Soccer Object Detection using YOLOv8
-        summary: Computer vision project on sports object detection.
-
-      - name: Graph Networks and Clustering
-        summary: Project on graph-based learning and clustering methods.
-
-      - name: Digital Telecommunication System Simulation
-        summary: Simulation project in communication systems.
-
-      - name: CORDIC Algorithm using ZynQ FPGA
-        summary: Hardware-oriented implementation project using FPGA systems.
-
-      - name: FFT using ZynQ FPGA
-        summary: FPGA-based implementation of FFT.
-
-      - name: Parallel Merge Sort with GPU
-        summary: Parallel computing project using GPU acceleration.
-
-      - name: Heat Transformation by Texture Memory (CUDA)
-        summary: CUDA project using texture memory for accelerated computation.
-
-    References:
-      - name: Prof. R. Amiri
-        summary: Associate Professor, Electrical Engineering Department, Sharif University of Technology — amiri@sharif.edu
-
-      - name: Prof. S. Bagheri Shouraki
-        summary: Full Professor, Electrical Engineering Department, Sharif University of Technology — bagheri-s@sharif.edu
-
-      - name: Dr. S. Sarabi
-        summary: Director, Raderon AI Lab — s.sarabi@raderonlab.ca
+        url: "https://arxiv.org/abs/2510.04160"
+        summary: "Preprint on source localization for moving-source IoT systems using a closed-form two-stage estimator."
