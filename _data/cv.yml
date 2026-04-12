@@ -1,9 +1,9 @@
 cv:
-  name: Seyed Mohammad, Ojagh Kazazi
-  label: M.Sc. Student in Electrical and Electronic Engineering at EPFL | Sharif University of Technology Alumnus
+  name: Mohammad Kazzazi
+  headline: M.Sc. Student in Electrical and Electronic Engineering at EPFL | Sharif University of Technology Alumnus
   email: smohammadok@gmail.com
   location: Athens, Greece
-  image: ""
+  photo:
   summary: Electrical engineer and incoming M.Sc. student at EPFL with a background in machine learning, signal processing, computer vision, and hardware-aware AI systems. My work spans research, teaching, and applied engineering, with interests in intelligent systems that connect modern learning methods to practical real-world applications.
 
   social_networks:
@@ -15,55 +15,54 @@ cv:
   sections:
     Education:
       - institution: École Polytechnique Fédérale de Lausanne (EPFL)
-        location: Lausanne, Switzerland
         area: Electrical and Electronic Engineering
-        studyType: M.Sc.
+        degree: M.Sc.
         start_date: 2026-09
         end_date: present
+        location: Lausanne, Switzerland
         highlights:
           - Starting in September 2026.
 
       - institution: Sharif University of Technology
-        location: Tehran, Iran
         area: Electrical Engineering (Digital Systems Branch)
-        studyType: B.Sc.
+        degree: B.Sc.
         start_date: 2021-09
         end_date: 2026
-        score: "18.54/20 (3.95/4)"
+        location: Tehran, Iran
         highlights:
+          - GPA: 18.54/20 (3.95/4).
           - Top 15% cumulative GPA among B.Sc. EE students of the 2021 class.
           - Top 3 in the Digital Systems major.
 
       - institution: Rouzbeh Educational Complex
-        location: Tehran, Iran
         area: Mathematics and Physics
-        studyType: Diploma
+        degree: Diploma
         start_date: 2014
         end_date: 2021
-        score: "19.49/20 (4/4)"
+        location: Tehran, Iran
+        highlights:
+          - GPA: 19.49/20 (4/4).
 
     Experience:
       - company: Aalto University
         position: Research Assistant
-        location: Espoo, Finland
         start_date: 2025-07
         end_date: present
-        highlights:
-          - Working on research projects at the intersection of AI and practical systems.
+        location: Espoo, Finland
+        summary: Working on research projects at the intersection of AI and practical systems.
 
       - company: Raderon AI Laboratory
         position: Research Assistant
-        location: British Columbia, Canada
         start_date: 2024-08
         end_date: 2025-01
-        highlights:
-          - Contributed to research in AI-driven medical image analysis.
+        location: British Columbia, Canada
+        summary: Contributed to research in AI-driven medical image analysis.
 
       - company: Artificial Creature Laboratory (ACL), Sharif University of Technology
         position: Research Assistant
-        location: Tehran, Iran
         start_date: 2024-07
         end_date: 2024-09
+        location: Tehran, Iran
         summary: Worked under the supervision of Prof. Saeed Bagheri on a smart socket switch for a custom AI platform with commercialization potential.
         highlights:
           - Explored IoT platforms and networking solutions for intelligent devices.
@@ -71,9 +70,9 @@ cv:
 
       - company: Sharif University of Technology
         position: Teaching Assistant / Laboratory Teaching Assistant
-        location: Tehran, Iran
         start_date: 2022-09
         end_date: 2025-12
+        location: Tehran, Iran
         summary: Supported several electrical engineering and programming courses through teaching classes, assignments, projects, and laboratory sessions.
         highlights:
           - Engineering Probability and Statistics (Project) — Fall 2025
@@ -92,90 +91,77 @@ cv:
           - R. Mousa
           - Mohammad Morsali
           - S. Chamani
-          - Mohammad Kazzazi
+          - "*Mohammad Kazzazi*"
           - P. Hatami
           - S. Sarabi
-        publisher: Machine Learning with Applications (Elsevier)
-        releaseDate: 2026-03
+        journal: Machine Learning with Applications (Elsevier)
+        date: 2026-03
         url: https://www.sciencedirect.com/science/article/pii/S266682702500194X
         summary: Published work on improving skin cancer diagnosis using late discrete wavelet transform and swarm-based optimization methods.
 
       - title: Minimal-Sensor TDOA/FDOA Fusion for Moving-Source IoT Localization: A Closed-Form, Two-Stage, Low-Complexity Estimator
         authors:
-          - Mohammad Kazzazi
+          - "*Mohammad Kazzazi*"
           - Mohammad Morsali
           - R. Amiri
-        publisher: arXiv
-        releaseDate: 2025-10
+        journal: arXiv
+        date: 2025-10
         url: https://arxiv.org/abs/2510.04160
         summary: Preprint on source localization for moving-source IoT systems using a closed-form two-stage estimator.
 
     In-Progress:
-      - title: Towards Smart Manufacturing: Vision-Language Models for Worker Assistance in Packing Tasks
-        publisher: Aalto University
-        releaseDate: present
+      - name: Towards Smart Manufacturing: Vision-Language Models for Worker Assistance in Packing Tasks
+        date: Present
+        location: Aalto University
         summary: Ongoing research on applying vision-language models to worker assistance in manufacturing and packing settings.
 
-      - title: A Cost–Utility Framework for AI Model Selection in Operations Management
-        publisher: Aalto University
-        releaseDate: present
+      - name: A Cost–Utility Framework for AI Model Selection in Operations Management
+        date: Present
+        location: Aalto University
         summary: Ongoing research on principled AI model selection for operations management applications.
 
     Awards:
-      - title: Fully Funded Admission to Sharif University of Technology
-        awarder: Sharif University of Technology
+      - name: Fully Funded Admission to Sharif University of Technology
         date: 2021
         summary: Accepted to the first-ranked university in Iran with a fully funded scholarship.
 
-      - title: National Universities Entrance Exam (Konkour)
-        awarder: National Entrance Examination
+      - name: National Universities Entrance Exam (Konkour)
         date: 2021
         summary: Ranked in the top 0.1% among 180,000 participants.
 
-      - title: Academic Standing Award
-        awarder: Sharif University of Technology
+      - name: Academic Standing
         date: 2025
         summary: Ranked in the top 15% cumulative GPA among B.Sc. EE students of the 2021 class, including top 3 in the Digital Systems major.
 
     Skills:
-      - name: Programming
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords: Python (OpenCV, PyTorch, scikit-learn, pandas), Java, Verilog, C/C++, LaTeX
+      - label: Programming
+        details: Python (OpenCV, PyTorch, scikit-learn, pandas), Java, Verilog, C/C++, LaTeX
 
-      - name: Additional Technical Skills
-        level: Intermediate
-        icon: fa-solid fa-microchip
-        keywords: CUDA, Assembly, HTML/CSS, MySQL, Git
+      - label: Additional Technical Skills
+        details: CUDA, Assembly, HTML/CSS, MySQL, Git
 
-      - name: Software and Hardware Tools
-        level: Advanced
-        icon: fa-solid fa-screwdriver-wrench
-        keywords: MATLAB, Xilinx ISE, ModelSim, Vivado, LTSPICE, Arduino IDE, Arduino Uno, ESP32/8266
+      - label: Software and Hardware Tools
+        details: MATLAB, Xilinx ISE, ModelSim, Vivado, LTSPICE, Arduino IDE, Arduino Uno, ESP32/8266
 
-      - name: Soft Skills
-        level: Strong
-        icon: fa-solid fa-people-group
-        keywords: Team player, Communication, Work ethic, Empathy, Active listening
+      - label: Soft Skills
+        details: Team player, Communication, Work ethic, Empathy, Active listening
 
     Languages:
-      - name: Persian
-        summary: Native proficiency
+      - label: Persian
+        details: Native proficiency
 
-      - name: English
-        summary: Fluent (TOEFL: 105)
+      - label: English
+        details: Fluent (TOEFL: 105)
 
-      - name: Spanish
-        summary: A1
+      - label: Spanish
+        details: A1
 
     Interests:
-      - name: Research Interests
-        icon: fa-solid fa-brain
-        keywords: Deep Learning, Artificial Neural Networks, Statistical Machine Learning, Optimization, LLMs, VLMs, Communication Systems, Localization, Signal Processing, Computer Vision, Medical Image Analysis, AI Accelerators, FPGA Acceleration for Neural Networks
+      - label: Research
+        details: Deep Learning, Artificial Neural Networks, Statistical Machine Learning, Optimization, LLMs, VLMs, Communication Systems, Localization, Signal Processing, Computer Vision, Medical Image Analysis, AI Accelerators, FPGA Acceleration for Neural Networks
 
-      - name: Personal Interests
-        icon: fa-solid fa-heart
-        keywords: Football, Volleyball, Gym, Travel, Culture, Classical Persian Music, Guitar
+      - label: Personal
+        details: Football, Volleyball, Gym, Travel, Culture, Classical Persian Music, Guitar
 
     Projects:
       - name: Membership Inference Attack against Diffusion Models
@@ -207,13 +193,10 @@ cv:
 
     References:
       - name: Prof. R. Amiri
-        icon: fa-solid fa-user-tie
-        reference: Associate Professor, Electrical Engineering Department, Sharif University of Technology — amiri@sharif.edu
+        summary: Associate Professor, Electrical Engineering Department, Sharif University of Technology — amiri@sharif.edu
 
       - name: Prof. S. Bagheri Shouraki
-        icon: fa-solid fa-user-tie
-        reference: Full Professor, Electrical Engineering Department, Sharif University of Technology — bagheri-s@sharif.edu
+        summary: Full Professor, Electrical Engineering Department, Sharif University of Technology — bagheri-s@sharif.edu
 
       - name: Dr. S. Sarabi
-        icon: fa-solid fa-user-tie
-        reference: Director, Raderon AI Lab — s.sarabi@raderonlab.ca
+        summary: Director, Raderon AI Lab — s.sarabi@raderonlab.ca
