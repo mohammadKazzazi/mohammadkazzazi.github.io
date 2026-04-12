@@ -391,16 +391,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-accepted-to-the-m-sc-in-high-performance-computing-engineering-at-politecnico-di-milano",
+          title: 'Accepted to the M.Sc. in High Performance Computing Engineering at Politecnico di Milano....',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-enhancing-skin-cancer-diagnosis-using-late-discrete-wavelet-transform-and-new-swarm-based-optimizers-has-been-accepted-for-publication-in-machine-learning-with-applications",
+          title: 'Our paper, “Enhancing skin cancer diagnosis using late discrete wavelet transform and new...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-accepted-to-the-m-sc-in-electrical-and-electronic-engineering-at-epfl",
+          title: 'Accepted to the M.Sc. in Electrical and Electronic Engineering at EPFL.',
+          description: "",
+          section: "News",},{id: "news-accepted-to-the-m-sc-in-signal-processing-and-data-science-at-aalto-university",
+          title: 'Accepted to the M.Sc. in Signal Processing and Data Science at Aalto University....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
