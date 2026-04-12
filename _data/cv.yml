@@ -1,17 +1,11 @@
 cv:
-  name: Mohammad Kazzazi
-  label: "M.Sc. Student in Electrical and Electronic Engineering at EPFL | Sharif University of Technology Alumnus"
+  name: "Seyed Mohammad Ojagh Kazazi"
+  label: "M.Sc. Student in EE at EPFL"
   email: smohammadok@gmail.com
-  location: Athens, Greece
+  location: "Athens, Greece"
   image: ""
   summary: "Electrical engineer and incoming M.Sc. student at EPFL with a background in machine learning, signal processing, computer vision, and hardware-aware AI systems. My work spans research, teaching, and applied engineering, with interests in intelligent systems that connect modern learning methods to practical real-world applications."
-
-  social_networks:
-    - network: GitHub
-      username: mohammadKazzazi
-    - network: LinkedIn
-      username: mohammad-kazzazi-99a39a248
-
+  
   sections:
     Education:
       - institution: École Polytechnique Fédérale de Lausanne (EPFL)
@@ -53,7 +47,7 @@ cv:
 
       - company: Raderon AI Laboratory
         position: Research Assistant
-        location: British Columbia, Canada
+        location: BC, Canada
         start_date: 2024-08
         end_date: 2025-01
         summary: "Contributed to research in AI-driven medical image analysis."
