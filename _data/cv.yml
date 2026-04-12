@@ -1,9 +1,9 @@
 cv:
   name: Mohammad Kazzazi
-  headline: "M.Sc. Student in Electrical and Electronic Engineering at EPFL | Sharif University of Technology Alumnus"
+  label: "M.Sc. Student in Electrical and Electronic Engineering at EPFL | Sharif University of Technology Alumnus"
   email: smohammadok@gmail.com
   location: Athens, Greece
-  photo:
+  image: ""
   summary: "Electrical engineer and incoming M.Sc. student at EPFL with a background in machine learning, signal processing, computer vision, and hardware-aware AI systems. My work spans research, teaching, and applied engineering, with interests in intelligent systems that connect modern learning methods to practical real-world applications."
 
   social_networks:
@@ -15,54 +15,54 @@ cv:
   sections:
     Education:
       - institution: École Polytechnique Fédérale de Lausanne (EPFL)
+        location: Lausanne, Switzerland
         area: Electrical and Electronic Engineering
-        degree: M.Sc.
+        studyType: M.Sc.
         start_date: 2026-09
         end_date: present
-        location: Lausanne, Switzerland
+        score: ""
         highlights:
           - "Starting in September 2026."
 
       - institution: Sharif University of Technology
+        location: Tehran, Iran
         area: Electrical Engineering (Digital Systems Branch)
-        degree: B.Sc.
+        studyType: B.Sc.
         start_date: 2021-09
         end_date: 2026
-        location: Tehran, Iran
+        score: "18.54/20 (3.95/4)"
         highlights:
-          - "GPA: 18.54/20 (3.95/4)."
           - "Top 15% cumulative GPA among B.Sc. EE students of the 2021 class."
           - "Top 3 in the Digital Systems major."
 
       - institution: Rouzbeh Educational Complex
+        location: Tehran, Iran
         area: Mathematics and Physics
-        degree: Diploma
+        studyType: Diploma
         start_date: 2014
         end_date: 2021
-        location: Tehran, Iran
-        highlights:
-          - "GPA: 19.49/20 (4/4)."
+        score: "19.49/20 (4/4)"
 
     Experience:
       - company: Aalto University
         position: Research Assistant
+        location: Espoo, Finland
         start_date: 2025-07
         end_date: present
-        location: Espoo, Finland
         summary: "Working on research projects at the intersection of AI and practical systems."
 
       - company: Raderon AI Laboratory
         position: Research Assistant
+        location: British Columbia, Canada
         start_date: 2024-08
         end_date: 2025-01
-        location: British Columbia, Canada
         summary: "Contributed to research in AI-driven medical image analysis."
 
       - company: Artificial Creature Laboratory (ACL), Sharif University of Technology
         position: Research Assistant
+        location: Tehran, Iran
         start_date: 2024-07
         end_date: 2024-09
-        location: Tehran, Iran
         summary: "Worked under the supervision of Prof. Saeed Bagheri on a smart socket switch for a custom AI platform with commercialization potential."
         highlights:
           - "Explored IoT platforms and networking solutions for intelligent devices."
@@ -70,9 +70,9 @@ cv:
 
       - company: Sharif University of Technology
         position: Teaching Assistant / Laboratory Teaching Assistant
+        location: Tehran, Iran
         start_date: 2022-09
         end_date: 2025-12
-        location: Tehran, Iran
         summary: "Supported several electrical engineering and programming courses through teaching classes, assignments, projects, and laboratory sessions."
         highlights:
           - "Engineering Probability and Statistics (Project) — Fall 2025"
@@ -85,6 +85,28 @@ cv:
           - "Object-Oriented Programming (Project) — Spring 2023"
           - "Basic Programming (Teaching Class) — Fall 2022"
 
+    Awards:
+      - title: "Fully Funded Admission to Sharif University of Technology"
+        authors:
+          - "Sharif University of Technology"
+        date: 2021
+        awarder: "Sharif University of Technology"
+        summary: "Accepted to the first-ranked university in Iran with a fully funded scholarship."
+
+      - title: "National Universities Entrance Exam (Konkour)"
+        authors:
+          - "National Entrance Examination"
+        date: 2021
+        awarder: "National Entrance Examination"
+        summary: "Ranked in the top 0.1% among 180,000 participants."
+
+      - title: "Academic Standing"
+        authors:
+          - "Sharif University of Technology"
+        date: 2025
+        awarder: "Sharif University of Technology"
+        summary: "Ranked in the top 15% cumulative GPA among B.Sc. EE students of the 2021 class, including top 3 in the Digital Systems major."
+
     Publications:
       - title: "Enhancing Skin Cancer Diagnosis Using Late Discrete Wavelet Transform and New Swarm-Based Optimizers"
         authors:
@@ -94,8 +116,8 @@ cv:
           - "Mohammad Kazzazi"
           - "P. Hatami"
           - "S. Sarabi"
-        journal: "Machine Learning with Applications (Elsevier)"
-        date: 2026-03
+        publisher: "Machine Learning with Applications (Elsevier)"
+        releaseDate: 2026-03
         url: "https://www.sciencedirect.com/science/article/pii/S266682702500194X"
         summary: "Published work on improving skin cancer diagnosis using late discrete wavelet transform and swarm-based optimization methods."
 
@@ -104,7 +126,99 @@ cv:
           - "Mohammad Kazzazi"
           - "Mohammad Morsali"
           - "R. Amiri"
-        journal: "arXiv"
-        date: 2025-10
+        publisher: "arXiv"
+        releaseDate: 2025-10
         url: "https://arxiv.org/abs/2510.04160"
         summary: "Preprint on source localization for moving-source IoT systems using a closed-form two-stage estimator."
+
+    In-Progress:
+      - title: "Towards Smart Manufacturing: Vision-Language Models for Worker Assistance in Packing Tasks"
+        publisher: "Aalto University"
+        releaseDate: "Present"
+        summary: "Ongoing research on applying vision-language models to worker assistance in manufacturing and packing settings."
+
+      - title: "A Cost–Utility Framework for AI Model Selection in Operations Management"
+        publisher: "Aalto University"
+        releaseDate: "Present"
+        summary: "Ongoing research on principled AI model selection for operations management applications."
+
+    Skills:
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python (OpenCV, PyTorch, scikit-learn, pandas), Java, Verilog, C/C++, LaTeX"
+
+      - name: Additional Technical Skills
+        level: Intermediate
+        icon: fa-solid fa-microchip
+        keywords: "CUDA, Assembly, HTML/CSS, MySQL, Git"
+
+      - name: Software and Hardware Tools
+        level: Advanced
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "MATLAB, Xilinx ISE Design Suite, ModelSim, Vivado, LTSPICE, Arduino IDE, Arduino Uno, ESP32/8266"
+
+      - name: Soft Skills
+        level: Strong
+        icon: fa-solid fa-people-group
+        keywords: "Team player, Excellent communication, Work ethic, Empathy, Active listening"
+
+    Languages:
+      - name: Persian
+        summary: "Native proficiency"
+
+      - name: English
+        summary: "Fluent (TOEFL Score: 105)"
+
+      - name: Spanish
+        summary: "A1"
+
+    Interests:
+      - name: Research Interests
+        icon: fa-solid fa-brain
+        keywords: "Deep Learning, Artificial Neural Networks, Statistical Machine Learning, Optimization, LLM/VLM, Communication Systems, Localization, Signal Processing, Computer Vision, Medical Image Analysis, AI Accelerator, FPGA Acceleration for Neural Networks"
+
+      - name: Personal Interests
+        icon: fa-solid fa-heart
+        keywords: "Football, Volleyball, Gym, Travel, Culture, Classical Persian music, Guitar"
+
+    Projects:
+      - name: Membership Inference Attack against Diffusion Models
+        summary: "Course project in machine learning security and privacy."
+
+      - name: Machine Unlearning & Membership Inference Attack
+        summary: "Project focused on privacy, data removal, and model behavior."
+
+      - name: Soccer Object Detection using YOLOv8
+        summary: "Computer vision project on sports object detection."
+
+      - name: Graph Networks & Clustering
+        summary: "Project on graph-based learning and clustering methods."
+
+      - name: Digital Telecommunication System Simulation
+        summary: "Simulation project in communication systems."
+
+      - name: Cordic Algorithm using ZynQ FPGA
+        summary: "Hardware-oriented implementation project using FPGA systems."
+
+      - name: FFT using ZynQ FPGA
+        summary: "FPGA-based implementation of FFT."
+
+      - name: Parallel Merge Sort Algorithm with GPU
+        summary: "Parallel computing project using GPU acceleration."
+
+      - name: Heat Transformation by Texture Memory (CUDA)
+        summary: "CUDA project using texture memory for accelerated computation."
+
+    References:
+      - name: Prof. R. Amiri
+        icon: fa-solid fa-user-tie
+        reference: "Associate Professor, Electrical Engineering Department, Sharif University of Technology — amiri@sharif.edu"
+
+      - name: Prof. S. Bagheri Shouraki
+        icon: fa-solid fa-user-tie
+        reference: "Full Professor, Electrical Engineering Department, Sharif University of Technology — bagheri-s@sharif.edu"
+
+      - name: Dr. S. Sarabi
+        icon: fa-solid fa-user-tie
+        reference: "Director, Raderon AI Lab — s.sarabi@raderonlab.ca"
