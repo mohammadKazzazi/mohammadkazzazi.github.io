@@ -1,11 +1,11 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-06-15'
 papers:
   2p2DYSQAAAAJ:d1gkVwhDpl0C:
     citations: 4
     title: Enhancing skin cancer diagnosis using late discrete wavelet transform and new swarm-based optimizers
     year: '2025'
   2p2DYSQAAAAJ:u-x6o8ySG0sC:
-    citations: 1
+    citations: 2
     title: 'CLEAR: A Closed-Form Minimal-Sensor TDOA/FDOA Estimator for Moving-Source IoT Localization'
     year: '2025'
