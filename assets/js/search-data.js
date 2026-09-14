@@ -25,17 +25,10 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Education, research experience, publications, teaching, and skills. Two PDF versions are available below, tailored to different audiences.",
+          description: "Education, research experience, publications, teaching, hardware and software skills. A PDF version is available via the icon on the right.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Teaching assistant roles at Sharif University of Technology, 2022–2025.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
           },
         },{id: "news-our-paper-enhancing-skin-cancer-diagnosis-using-late-discrete-wavelet-transform-and-new-swarm-based-optimizers-was-accepted-in-machine-learning-with-applications",
           title: 'Our paper, Enhancing skin cancer diagnosis using late discrete wavelet transform and new...',
