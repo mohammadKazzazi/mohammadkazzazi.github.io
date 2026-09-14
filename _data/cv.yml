@@ -161,7 +161,7 @@ cv:
 
     Interests:
       - label: Research
-        details: "Computer vision, vision-language models, vision-language-action models, efficient and on-device deep learning, generative models, trustworthy machine learning, GPU computing, FPGA acceleration"
+        details: "Computer vision, vision-language and vision-language-action models, efficient and on-device deep learning, AI/FPGA accelerators for neural networks, GPU computing and parallel architectures, generative models, trustworthy machine learning"
 
       - label: Personal
         details: "Football, volleyball, gym, travel, sitcoms, classical Persian music, guitar"

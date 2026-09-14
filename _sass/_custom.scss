@@ -201,57 +201,6 @@ h6 {
 }
 
 // ---------------------------------------------------------------------------
-// Action buttons (used on the CV page)
-// ---------------------------------------------------------------------------
-
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  margin: 0.25rem 0 1.4rem;
-}
-
-.hero-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.45rem 0.95rem;
-  border-radius: 999px;
-  border: 1px solid var(--site-accent-border);
-  background: transparent;
-  color: var(--global-theme-color);
-  font-size: 0.9rem;
-  font-weight: 500;
-  text-decoration: none !important;
-  transition:
-    background-color 0.18s ease,
-    color 0.18s ease,
-    transform 0.18s ease,
-    box-shadow 0.18s ease;
-
-  i {
-    font-size: 0.95em;
-  }
-
-  &:hover {
-    background: var(--site-accent-soft);
-    color: var(--global-theme-color);
-    transform: translateY(-1px);
-  }
-
-  &.primary {
-    background: var(--global-theme-color);
-    border-color: var(--global-theme-color);
-    color: var(--global-hover-text-color);
-
-    &:hover {
-      box-shadow: var(--site-shadow-hover);
-      color: var(--global-hover-text-color);
-    }
-  }
-}
-
-// ---------------------------------------------------------------------------
 // Home: research interests and experience (quiet, text-first lists)
 // ---------------------------------------------------------------------------
 
@@ -596,6 +545,9 @@ h6 {
 
 // ---------------------------------------------------------------------------
 // CV
+// Every entry (experience, education, awards, publications) is laid out on the
+// same grid: a fixed left column for the date badge and location, and the
+// entry text on the right, so titles and badges line up across sections.
 // ---------------------------------------------------------------------------
 
 .cv {
@@ -618,34 +570,90 @@ h6 {
         padding-top: 0.25rem;
       }
 
+      // Bootstrap row/cols -> grid
+      > .row {
+        display: grid;
+        grid-template-columns: 8.5rem minmax(0, 1fr);
+        column-gap: 1.25rem;
+        align-items: start;
+        margin: 0;
+
+        > [class*="col-"] {
+          flex: none;
+          width: auto;
+          max-width: none;
+          padding: 0;
+          margin-top: 0 !important;
+          text-align: left;
+        }
+      }
+
+      table.table-cv {
+        width: 100%;
+
+        td {
+          padding: 0;
+        }
+      }
+
       .badge {
+        display: inline-block;
+        width: 100%;
+        min-width: 0 !important;
         border-radius: 8px;
         font-family: var(--site-font-mono);
-        font-size: 0.7rem;
+        font-size: 0.72rem;
         letter-spacing: 0.03em;
-        padding: 0.35rem 0.5rem;
+        line-height: 1.2;
+        padding: 0.4rem 0.5rem;
+        text-align: center;
+        white-space: nowrap;
+      }
+
+      p.location {
+        font-family: var(--site-font-sans);
+        font-size: 0.78rem;
+        line-height: 1.35;
+        color: var(--global-text-color-light);
+        white-space: normal;
+        margin: 0.4rem 0 0;
+
+        i {
+          margin-right: 0.15rem;
+        }
+      }
+
+      h6,
+      p {
+        margin-left: 0 !important;
       }
 
       h6.title {
         font-size: 1.02rem;
+        line-height: 1.4;
         margin-bottom: 0.15rem;
+      }
+
+      h6 {
+        line-height: 1.45;
+        margin-bottom: 0.15rem;
+      }
+
+      p {
+        margin-bottom: 0.25rem;
+        font-size: 0.95rem;
       }
 
       ul.items {
         padding-left: 1.1rem;
-        margin: 0.4rem 0 0;
+        margin: 0.45rem 0 0;
 
         li {
           margin-bottom: 0.2rem;
           font-size: 0.93rem;
+          line-height: 1.5;
         }
       }
-    }
-
-    p.location {
-      font-family: var(--site-font-sans);
-      color: var(--global-text-color-light);
-      margin-top: 0.4rem;
     }
   }
 
@@ -660,7 +668,8 @@ h6 {
 }
 
 .date-column {
-  transform: translateX(-8px) translateY(0);
+  transform: none;
+  width: auto;
 }
 
 .cv-intro {
@@ -670,57 +679,6 @@ h6 {
 .projects-intro {
   color: var(--global-text-color-light);
   margin-bottom: 0.25rem;
-}
-
-// ---------------------------------------------------------------------------
-// Teaching
-// ---------------------------------------------------------------------------
-
-.teaching-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 0.9rem;
-  margin: 1.4rem 0 0.5rem;
-}
-
-.teaching-card {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  background: var(--global-card-bg-color);
-  border: 1px solid var(--global-divider-color);
-  border-radius: var(--site-radius);
-  padding: 1rem 1.1rem;
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    border-color 0.2s ease;
-
-  &:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--site-shadow);
-    border-color: var(--site-accent-border);
-  }
-
-  .teaching-term {
-    font-family: var(--site-font-mono);
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    color: var(--global-theme-color);
-  }
-
-  strong {
-    font-family: var(--site-font-serif);
-    font-size: 1.05rem;
-    font-weight: 600;
-    line-height: 1.3;
-  }
-
-  .teaching-role {
-    font-size: 0.85rem;
-    color: var(--global-text-color-light);
-  }
 }
 
 // ---------------------------------------------------------------------------
@@ -805,6 +763,16 @@ footer.fixed-bottom {
   .experience-list li {
     grid-template-columns: 1fr;
     gap: 0.15rem;
+  }
+
+  .cv .card .list-group-item > .row {
+    grid-template-columns: 1fr;
+    row-gap: 0.4rem;
+  }
+
+  .cv .card .list-group-item .badge {
+    width: auto;
+    min-width: 6rem !important;
   }
 
   .news table th {
