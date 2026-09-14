@@ -3,8 +3,6 @@ layout: page
 title: Football Object Detection and Tracking
 description: YOLOv8 detection with ByteTrack, DeepSORT, and CSRT tracking on SportsMOT football video.
 img: assets/img/projects/football-tracking.svg
-featured: true
-featured_order: 2
 importance: 2
 category: Machine learning
 github: https://github.com/mohammadKazzazi/Object_Detection_Deep_Learning

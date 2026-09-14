@@ -3,8 +3,6 @@ layout: page
 title: Hardware and Parallel Computing
 description: FPGA, CUDA, and digital systems projects spanning CORDIC, FFT, a MIPS processor, and GPU memory.
 img: assets/img/projects/hardware-systems.svg
-featured: true
-featured_order: 3
 importance: 1
 category: Hardware & systems
 github: https://github.com/mohammadKazzazi

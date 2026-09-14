@@ -9,3 +9,7 @@
 "TAES":
   url: https://ieee-aess.org/t-aes
   color: "#003366"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"

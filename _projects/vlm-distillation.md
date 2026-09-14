@@ -3,8 +3,6 @@ layout: page
 title: Distilling VLMs for On-Device Fire Understanding
 description: Compressing a 7B vision-language model 14× so it can reason about fire scenes on an embedded sensor.
 img: assets/img/projects/vlm-distillation.svg
-featured: true
-featured_order: 1
 importance: 1
 category: Machine learning
 permalink: /projects/vlm-distillation/
@@ -30,4 +28,4 @@ I built a teacher–student distillation setup that trains compact 0.5B–3B stu
 
 ## Paper and next steps
 
-The first-author paper is on [arXiv](https://arxiv.org/abs/2609.05782) and submitted to AAAI 2027 Innovative Applications of AI (IAAI) {% cite kazzazi2026distill %}. I am now looking at prompt optimization and reasoning strategies for vision-language-action models.
+The paper is on [arXiv](https://arxiv.org/abs/2609.05782) {% cite kazzazi2026distill %}. I am now looking at prompt optimization and reasoning strategies for vision-language-action models.

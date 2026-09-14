@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our first-author paper, [Distilling Vision-Language Models for On-Device Fire Understanding](https://arxiv.org/abs/2609.05782), is now on arXiv and submitted to AAAI 2027 IAAI.
+Our paper, [Distilling Vision-Language Models for On-Device Fire Understanding](https://arxiv.org/abs/2609.05782), is now on arXiv.
