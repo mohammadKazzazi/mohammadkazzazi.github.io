@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.Sc. student in Electrical Engineering, EPFL
+subtitle: Seyedmohammad Ojaghkazazi when the paperwork is serious.
 
 profile:
   align: right

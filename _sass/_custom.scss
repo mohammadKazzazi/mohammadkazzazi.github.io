@@ -132,6 +132,14 @@ h6 {
     line-height: 1.5;
     margin: 0.5rem 0 0;
     max-width: 44rem;
+  }
+
+  // Home page tagline under the name: a light, italic aside
+  .desc {
+    font-family: var(--site-font-serif);
+    font-style: italic;
+    font-size: 1rem;
+    opacity: 0.85;
 
     a {
       color: var(--global-theme-color);
