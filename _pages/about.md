@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.Sc. Student in Electrical Engineering, EPFL
+subtitle: M.Sc. student in Electrical Engineering at EPFL · computer vision, vision-language models, and efficient on-device AI
 
 profile:
   align: right
   image: Profile.jpg
   image_circular: true
   more_info: >
-    <p>EPFL</p>
-    <p>Lausanne, Switzerland</p>
+    <p><i class="fa-solid fa-building-columns"></i> EPFL</p>
+    <p><i class="fa-solid fa-location-dot"></i> Lausanne, Switzerland</p>
 
 selected_papers: true
 social: true
@@ -26,47 +26,101 @@ latest_posts:
   limit: 3
 ---
 
-I am an M.Sc. student in Electrical Engineering at [EPFL](https://www.epfl.ch/), working at the intersection of **computer vision**, **vision-language models**, and **efficient on-device AI**. I completed my B.Sc. in Electrical Engineering, Digital Systems, at [Sharif University of Technology](https://www.sharif.edu/).
+<p class="lead">
+I am an M.Sc. student in Electrical Engineering at <a href="https://www.epfl.ch/">EPFL</a>. I build multimodal models that keep working after they leave the lab: compressed to fit a small device, profiled on real hardware, and evaluated on the failure cases that matter.
+</p>
 
-My recent research asks a practical question: how can large multimodal models be compressed so they still reason reliably on small devices? At Aalto University, I distilled vision-language models for fire understanding and deployed them on embedded hardware. I have also worked on medical image analysis, IoT localization, and FPGA/GPU implementations.
+<div class="hero-actions">
+  <a class="hero-btn primary" href="{{ '/assets/pdf/Resume.pdf' | relative_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Curriculum vitae</a>
+  <a class="hero-btn" href="https://scholar.google.com/citations?user=2p2DYSQAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+  <a class="hero-btn" href="https://github.com/mohammadKazzazi" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+  <a class="hero-btn" href="mailto:smohammadok@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+</div>
+
+My current research at [Aalto University](https://www.aalto.fi/en) asks a practical question: how far can a large vision-language model be compressed before it stops reasoning reliably about a scene? I distilled a 7B teacher into 0.5B–3B students for fire understanding and deployed them on a commercial fire sensor, work that became my first-author submission to AAAI 2027 IAAI. Earlier, I worked on medical image analysis, closed-form localization for IoT, and FPGA and CUDA implementations, and I completed my B.Sc. in Electrical Engineering (Digital Systems) at [Sharif University of Technology](https://www.sharif.edu/).
 
 <div class="about-highlights">
   <div class="highlight-card">
-    <strong>EPFL</strong>
-    <span>M.Sc. Electrical Engineering</span>
+    <span class="highlight-value">14×</span>
+    <span class="highlight-label">smaller VLM, 95% of teacher accuracy, running on a Raspberry Pi 5</span>
   </div>
   <div class="highlight-card">
-    <strong>18.53 / 20</strong>
-    <span>B.Sc. GPA at Sharif, top 3 in Digital Systems</span>
+    <span class="highlight-value">3</span>
+    <span class="highlight-label">papers: AAAI 2027 IAAI (submitted), IEEE TAES (submitted), Elsevier MLWA</span>
   </div>
   <div class="highlight-card">
-    <strong>On-device VLMs</strong>
-    <span>First-author submission to AAAI 2027 IAAI</span>
+    <span class="highlight-value">18.53<small>/20</small></span>
+    <span class="highlight-label">B.Sc. GPA at Sharif, top 3 in Digital Systems, top 0.1% in the national entrance exam</span>
   </div>
 </div>
 
 ## Research interests
 
-I like building systems that connect modern learning methods to constraints that show up outside the lab: memory, latency, sensors, and reliability.
+I like problems that sit between modern learning methods and the constraints that show up outside the lab: memory, latency, sensors, and reliability.
 
 <ul class="research-tags">
-  <li>Computer Vision</li>
-  <li>Vision-Language Models</li>
-  <li>Vision-Language-Action Models</li>
-  <li>On-Device AI</li>
-  <li>Generative Models</li>
-  <li>Trustworthy ML</li>
-  <li>GPU &amp; FPGA Acceleration</li>
+  <li><i class="fa-solid fa-eye"></i> Computer vision</li>
+  <li><i class="fa-solid fa-comment-dots"></i> Vision-language models</li>
+  <li><i class="fa-solid fa-robot"></i> Vision-language-action models</li>
+  <li><i class="fa-solid fa-microchip"></i> Efficient &amp; on-device AI</li>
+  <li><i class="fa-solid fa-wand-magic-sparkles"></i> Generative models</li>
+  <li><i class="fa-solid fa-shield-halved"></i> Trustworthy ML</li>
+  <li><i class="fa-solid fa-bolt"></i> GPU &amp; FPGA acceleration</li>
 </ul>
 
-I wrote my B.Sc. thesis with [Prof. R. Amiri](https://scholar.google.com/citations?hl=en&user=sOUZ3cUAAAAJ&view_op=list_works&sortby=pubdate) and was a research assistant at the Artificial Creature Laboratory with [Prof. Saeed Bagheri Shouraki](https://scholar.google.com/citations?user=nR98aV4AAAAJ&hl=en). I currently work remotely with [Prof. Siavash Khajavi](https://www.aalto.fi/en/people/siavash-khajavi-haghighat) at Aalto University.
+## Experience
 
-Outside research, I enjoy football, volleyball, travel, and sitcoms.
+<ol class="timeline">
+  <li>
+    <span class="timeline-date">2026 – present</span>
+    <div class="timeline-body">
+      <strong>M.Sc. in Electrical Engineering</strong>, EPFL, Lausanne
+      <p>Coursework in machine learning, mathematics of data, convex optimization, and inference and learning.</p>
+    </div>
+  </li>
+  <li>
+    <span class="timeline-date">Apr 2026 – present</span>
+    <div class="timeline-body">
+      <strong>Research Assistant</strong>, Aalto University (remote), with <a href="https://www.aalto.fi/en/people/siavash-khajavi-haghighat">Prof. Siavash Khajavi</a>
+      <p>Knowledge distillation of vision-language models for on-device fire understanding; now studying prompt optimization and reasoning for vision-language-action models.</p>
+    </div>
+  </li>
+  <li>
+    <span class="timeline-date">Aug 2024 – Jan 2025</span>
+    <div class="timeline-body">
+      <strong>Research Assistant</strong>, Raderon AI Laboratory (remote), with Dr. Soroush Sarabi
+      <p>Medical image analysis with discrete wavelet transforms and swarm-based optimizers; co-authored a paper in <em>Machine Learning with Applications</em>.</p>
+    </div>
+  </li>
+  <li>
+    <span class="timeline-date">Jul – Sep 2024</span>
+    <div class="timeline-body">
+      <strong>Research Assistant</strong>, Artificial Creature Laboratory, Sharif University of Technology, with <a href="https://scholar.google.com/citations?user=nR98aV4AAAAJ&hl=en">Prof. Saeed Bagheri Shouraki</a>
+      <p>Designed and built a smart IoT socket (Arduino, ESP32/ESP8266) for the lab's AI platform.</p>
+    </div>
+  </li>
+  <li>
+    <span class="timeline-date">2021 – 2025</span>
+    <div class="timeline-body">
+      <strong>B.Sc. in Electrical Engineering (Digital Systems)</strong>, Sharif University of Technology, Tehran
+      <p>Thesis on closed-form TDOA/FDOA localization with <a href="https://scholar.google.com/citations?hl=en&user=sOUZ3cUAAAAJ">Prof. Rouhollah Amiri</a>. Teaching assistant for six courses across programming, digital systems, and signals.</p>
+    </div>
+  </li>
+</ol>
 
 ## Selected projects
 
-A few pieces of work that represent how I like to build things. The [projects page]({{ '/projects/' | relative_url }}) has the full list.
+A few pieces of work that show how I like to build things. The [projects page]({{ '/projects/' | relative_url }}) has the full list, and most of the code is on [GitHub](https://github.com/mohammadKazzazi).
 
-- [Distilling VLMs for on-device fire understanding]({{ '/projects/vlm-distillation/' | relative_url }}) — compressing a 7B vision-language teacher for embedded fire sensors.
-- [Football detection and tracking]({{ '/projects/football-tracking/' | relative_url }}) — YOLOv8, ByteTrack, and DeepSORT on broadcast football video.
-- [Hardware and parallel computing]({{ '/projects/hardware-systems/' | relative_url }}) — FPGA, CUDA, and digital systems projects from my Sharif years.
+<div class="featured-projects">
+  {% assign featured = site.projects | where: "featured", true | sort: "featured_order" %}
+  {% for project in featured %}
+    <a class="featured-project" href="{{ project.url | relative_url }}">
+      <img src="{{ project.img | relative_url }}" alt="" loading="lazy">
+      <span class="featured-project-title">{{ project.title }}</span>
+      <span class="featured-project-desc">{{ project.description }}</span>
+    </a>
+  {% endfor %}
+</div>
+
+Outside research, I enjoy football, volleyball, travel, sitcoms, classical Persian music, and guitar.

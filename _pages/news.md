@@ -2,7 +2,7 @@
 layout: page
 title: news
 permalink: /news/
-description: Recent updates, admissions, and publications.
+description: Admissions, papers, and other updates.
 nav: false
 ---
 

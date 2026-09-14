@@ -2,12 +2,14 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected research, privacy, and systems projects.
+description: Research, privacy, and hardware projects. Most of them have code on GitHub.
 nav: true
 nav_order: 3
-display_categories: [Research, Systems]
+display_categories: ["Machine learning", "Hardware & systems"]
 horizontal: false
 ---
+
+<p class="projects-intro">Source code for most projects is on <a href="{{ '/repositories/' | relative_url }}">the repositories page</a> and on <a href="https://github.com/mohammadKazzazi">GitHub</a>.</p>
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

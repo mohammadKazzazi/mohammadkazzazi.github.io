@@ -28,12 +28,13 @@ cv:
         highlights:
           - "GPA: 18.53/20 (3.95/4)."
           - "Top 15% of the B.Sc. Electrical Engineering class and top 3 in Digital Systems."
-          - "Selected graduate-level courses: Deep Learning (17.2), Deep Generative Models (17.2), Convex Optimization II (19.7), Parallel Computing (18.4), VLSI (19.1)."
-          - "Selected undergraduate courses: Linear Algebra / Mathematical Methods (20), Data Structures and Algorithms (19.5), Communication Systems (19), ASIC/FPGA System Design (17.2), Introduction to Machine Learning (17.9)."
+          - "Selected graduate-level courses: Convex Optimization II (19.7), VLSI (19.1), Parallel Computing (18.4), Security in IoT (17.8), Deep Learning (17.2), Deep Generative Models (17.2)."
+          - "Selected undergraduate courses: Linear Algebra / Mathematical Methods (20), Data Structures and Algorithms (19.5), Communication Systems (19), Introduction to Machine Learning (17.9), ASIC/FPGA System Design (17.2)."
 
     Experience:
       - company: Aalto University
         position: Research Assistant
+        url: https://www.aalto.fi/en
         location: Espoo, Finland (remote)
         start_date: 2026-04
         end_date: present
@@ -41,7 +42,7 @@ cv:
         highlights:
           - "Developed a knowledge-distillation framework combining KL-divergence and cross-entropy supervision to compress a 7B Qwen2.5 vision-language teacher into 0.5B–3B student models."
           - "On DetectiumFire, the 0.5B student retained 95.2% of the teacher's burning-object accuracy with 14× fewer parameters and reached 99.5% fire/non-fire accuracy after deployment."
-          - "Deployed and profiled distilled models on a Raspberry Pi 5 (CPU only): 1.9 GB peak memory, about 4 s end-to-end latency, and 2 false alarms on 1,452 test images."
+          - "Deployed and profiled distilled models on a Raspberry Pi 5 (4× Cortex-A76, 8 GB, CPU only): 1.9 GB peak memory, about 4 s end-to-end latency, and 2 false alarms on 1,452 test images."
           - "First-author submission to AAAI 2027 Innovative Applications of AI (IAAI)."
           - "Currently investigating prompt optimization and reasoning strategies for Vision-Language-Action models."
 
@@ -167,20 +168,24 @@ cv:
 
     Projects:
       - name: Football Object Detection and Multi-Object Tracking
+        url: https://github.com/mohammadKazzazi/Object_Detection_Deep_Learning
         summary: "Fine-tuned YOLOv8 on SportsMOT football video and built tracking with ByteTrack, DeepSORT, and CSRT, including occlusion and ID-switch analysis."
         highlights:
           - "mAP@50 0.947, mAP@50–95 0.779, precision 0.93, recall 0.94; 1.4 ms inference per frame on a P100 GPU."
 
       - name: Membership Inference Attacks Against Diffusion Models
+        url: https://github.com/mohammadKazzazi/Membership-Inference-Attack-against-Diffusion-Models
         summary: "Re-implemented SecMI (ICML 2023) on CIFAR-100 DDPMs and proposed a hyperparameter-free multi-timestep fusion variant."
         highlights:
           - "Raised attack AUC from 0.971 to 0.984 and TPR@1% FPR from 0.519 to 0.642."
 
       - name: Machine Unlearning and Private Training
+        url: https://github.com/mohammadKazzazi/Machine-Unlearning-and-Private-Training
         summary: "Implemented SISA sharded training with ResNet-18 on CIFAR-10 and verified unlearning with backdoor success rate and membership inference."
 
       - name: Hardware and Parallel Computing
-        summary: "CORDIC and FFT on Zynq FPGA, a multi-cycle MIPS processor, parallel merge sort and heat-transfer simulation in CUDA, and a digital telecommunication system simulation."
+        url: https://mohammadkazzazi.github.io/projects/hardware-systems/
+        summary: "CORDIC and FFT on Zynq FPGA (Verilog, Vivado), a multi-cycle MIPS processor, parallel merge sort and heat-transfer simulation with texture memory in CUDA, and a digital telecommunication system simulation."
 
     References:
       - name: Prof. R. Amiri

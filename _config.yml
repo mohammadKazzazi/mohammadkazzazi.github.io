@@ -9,12 +9,12 @@ last_name: Kazzazi
 contact_note: >
   The best way to reach me is by email. I am always happy to talk about research, collaboration, or graduate studies.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  M.Sc. student in Electrical Engineering at EPFL. I work on computer vision, vision-language models, and efficient on-device AI.
+  Mohammad Kazzazi is an M.Sc. student in Electrical Engineering at EPFL working on computer vision, vision-language models, and efficient on-device AI, with a background in digital systems and FPGA/GPU acceleration from Sharif University of Technology.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: computer vision, vision-language models, on-device AI, machine learning, FPGA, EPFL, Mohammad Kazzazi
+keywords: Mohammad Kazzazi, EPFL, computer vision, vision-language models, VLM, knowledge distillation, on-device AI, efficient deep learning, FPGA, CUDA, Sharif University of Technology, Aalto University
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icon.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -91,8 +91,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Blog # blog_name will be displayed in your blog page
+blog_description: Notes on research, systems, and things I am learning
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -121,24 +121,14 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: # add external RSS feeds or post URLs here if you ever want them mirrored in the blog
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -199,7 +189,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -271,8 +260,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -461,7 +450,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,500&family=Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
@@ -652,10 +641,6 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
 
 jsonresume:
   - basics

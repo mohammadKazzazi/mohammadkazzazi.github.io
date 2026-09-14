@@ -4,4 +4,12 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - mohammadKazzazi/mohammadkazzazi.github.io
+  - mohammadKazzazi/Object_Detection_Deep_Learning
+  - mohammadKazzazi/Membership-Inference-Attack-against-Diffusion-Models
+  - mohammadKazzazi/Machine-Unlearning-and-Private-Training
+  - mohammadKazzazi/Cordic_Algorithm_With_ZynQ_FPGA
+  - mohammadKazzazi/FFT_using_ZynQ_FPGA
+  - mohammadKazzazi/Multi-cycle-MIPS-implementation
+  - mohammadKazzazi/Merge_Sort_CUDA
+  - mohammadKazzazi/Heat_Transformation_with_Texture_Memory_CUDA
+  - mohammadKazzazi/simulate-a-digital-telecommunication-system

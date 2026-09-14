@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Papers in reverse chronological order, generated from BibTeX.
+description: Journal and conference papers, newest first. Click a badge or button for the abstract, BibTeX, or the paper itself.
 nav: true
 nav_order: 2
 ---
