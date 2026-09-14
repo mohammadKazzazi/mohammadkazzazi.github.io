@@ -2,14 +2,22 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Teaching assistant roles at Sharif University of Technology.
 nav: false
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+I was a teaching assistant at Sharif University of Technology from 2022 to 2025, across programming, digital systems, and core electrical engineering courses.
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+## Laboratory
 
-{% include courses.liquid %}
+- **Logic Circuits and Digital Systems Lab** — Fall 2023
+
+## Teaching assistant
+
+- **Engineering Probability and Statistics** — Fall 2025
+- **Logic Circuits and Digital Systems** — four terms, 2023–2024
+- **Mathematical Methods in Engineering** — Spring 2024
+- **Communication Systems** — Spring 2024
+- **Object-Oriented Programming** — Spring 2023
+- **Basic Programming** — Fall 2022

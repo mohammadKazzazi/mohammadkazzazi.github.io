@@ -1,9 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"IAAI":
+  url: https://aaai.org/conference/aaai/
+  color: "#8C1515"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"MLWA":
+  url: https://www.sciencedirect.com/journal/machine-learning-with-applications
+  color: "#0f766e"
 
-"Vision":
-  color: "#009f36"
+"TAES":
+  url: https://ieee-aess.org/t-aes
+  color: "#003366"

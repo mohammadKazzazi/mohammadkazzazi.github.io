@@ -3,10 +3,10 @@ layout: cv
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 5
+nav_order: 4
 cv_pdf: /assets/pdf/Resume.pdf
 cv_format: rendercv
-description: M.Sc. Student in Electrical and Electronic Engineering at EPFL | Sharif University of Technology Alumnus. The complete version of my CV is available through the PDF above.
+description: M.Sc. student in Electrical Engineering at EPFL. Download the <a href="/assets/pdf/Resume_AI.pdf">AI / vision CV</a> or the <a href="/assets/pdf/Resume_AI_Hardware.pdf">AI hardware CV</a>.
 toc:
   sidebar: left
 ---

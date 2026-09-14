@@ -1,34 +1,31 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"khajavi":
+  - firstname: ["Siavash", "S."]
+    url: https://www.aalto.fi/en/people/siavash-khajavi-haghighat
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"liu":
+  - firstname: ["Zixuan", "Z."]
+    url: https://arxiv.org/search/cs?searchtype=author&query=Liu,+Zixuan
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"morsali":
+  - firstname: ["Mohammad", "M."]
+    url: https://arxiv.org/search/?searchtype=author&query=Morsali,+Mohammad
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"amiri":
+  - firstname: ["Rouhollah", "R."]
+    url: https://scholar.google.com/citations?hl=en&user=sOUZ3cUAAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"mousa":
+  - firstname: ["Ramin", "R."]
+    url: https://www.sciencedirect.com/science/article/pii/S266682702500194X
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"chamani":
+  - firstname: ["Saeed", "S."]
+    url: https://www.sciencedirect.com/science/article/pii/S266682702500194X
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"hatami":
+  - firstname: ["Parsa", "P."]
+    url: https://www.sciencedirect.com/science/article/pii/S266682702500194X
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"sarabi":
+  - firstname: ["Soroush", "S."]
+    url: https://www.sciencedirect.com/science/article/pii/S266682702500194X

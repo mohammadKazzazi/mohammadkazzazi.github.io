@@ -1,208 +1,242 @@
 cv:
   name: "Seyed Mohammad Ojagh Kazazi"
-  label: "M.Sc. Student in EE at EPFL"
+  label: "M.Sc. Student in Electrical Engineering at EPFL"
   email: smohammadok@gmail.com
-  location: "Athens, Greece"
+  location: "Lausanne, Switzerland"
+  website: "https://mohammadkazzazi.github.io"
   image: ""
-  summary: "Electrical engineer and incoming M.Sc. student at EPFL with a background in machine learning, signal processing, computer vision, and hardware-aware AI systems. My work spans research, teaching, and applied engineering, with interests in intelligent systems that connect modern learning methods to practical real-world applications."
-  
+  summary: "Electrical engineer and M.Sc. student at EPFL working on computer vision, vision-language models, and efficient on-device AI. My work spans research, teaching, and hardware-aware systems, with a focus on models that remain accurate under real memory, latency, and reliability constraints."
+
   sections:
     Education:
       - institution: École Polytechnique Fédérale de Lausanne (EPFL)
         location: Lausanne, Switzerland
-        area: Electrical and Electronic Engineering
+        area: Electrical Engineering
         studyType: M.Sc.
         start_date: 2026-09
         end_date: present
-        score: ""
+        url: "https://www.epfl.ch/"
         highlights:
-          - "Starting in September 2026."
+          - "Fall 2026 coursework: Machine Learning, Mathematics of Data, Convex Optimization, Fundamentals of Inference and Learning."
 
       - institution: Sharif University of Technology
         location: Tehran, Iran
-        area: Electrical Engineering (Digital Systems Branch)
+        area: Electrical Engineering (Digital Systems)
         studyType: B.Sc.
         start_date: 2021-09
-        end_date: 2026
-        score: "18.54/20 (3.95/4)"
+        end_date: 2025
+        score: "18.53/20 (3.95/4)"
+        url: "https://www.sharif.edu/"
         highlights:
-          - "Top 15% cumulative GPA among B.Sc. EE students of the 2021 class."
-          - "Top 3 in the Digital Systems major."
-
-      - institution: Rouzbeh Educational Complex
-        location: Tehran, Iran
-        area: Mathematics and Physics
-        studyType: Diploma
-        start_date: 2014
-        end_date: 2021
-        score: "19.49/20 (4/4)"
+          - "Top 15% of the B.Sc. Electrical Engineering class and top 3 in Digital Systems."
+          - "Selected graduate-level courses: Deep Learning (17.2), Deep Generative Models (17.2), Convex Optimization II (19.7), Parallel Computing (18.4), VLSI (19.1)."
+          - "Selected undergraduate courses: Linear Algebra / Mathematical Methods (20), Data Structures and Algorithms (19.5), Communication Systems (19), ASIC/FPGA System Design (17.2), Introduction to Machine Learning (17.9)."
 
     Experience:
       - company: Aalto University
         position: Research Assistant
-        location: Espoo, Finland
-        start_date: 2025-07
+        location: Espoo, Finland (remote)
+        start_date: 2026-04
         end_date: present
-        summary: "Working on research projects at the intersection of AI and practical systems."
+        url: "https://www.aalto.fi/"
+        summary: "Supervisor: Prof. Siavash Khajavi."
+        highlights:
+          - "Developed a knowledge-distillation framework combining KL-divergence and cross-entropy supervision to compress a 7B Qwen2.5 vision-language teacher into 0.5B–3B student models."
+          - "On DetectiumFire, the 0.5B student retained 95.2% of the teacher's burning-object accuracy with 14× fewer parameters and reached 99.5% fire/non-fire accuracy after deployment."
+          - "Deployed and profiled distilled models on a Raspberry Pi 5 (CPU only): 1.9 GB peak memory, about 4 s end-to-end latency, and 2 false alarms on 1,452 test images."
+          - "First-author submission to AAAI 2027 Innovative Applications of AI (IAAI)."
+          - "Currently investigating prompt optimization and reasoning strategies for Vision-Language-Action models."
 
       - company: Raderon AI Laboratory
         position: Research Assistant
-        location: BC, Canada
+        location: British Columbia, Canada (remote)
         start_date: 2024-08
         end_date: 2025-01
-        summary: "Contributed to research in AI-driven medical image analysis."
+        summary: "Supervisor: Dr. S. Sarabi."
+        highlights:
+          - "Conducted medical image analysis research combining the Discrete Wavelet Transform with swarm-based optimizers."
+          - "Co-authored a paper published in Elsevier *Machine Learning with Applications*."
 
-      - company: Artificial Creature Laboratory (ACL), Sharif University of Technology
+      - company: Artificial Creature Laboratory (ACLab), Sharif University of Technology
         position: Research Assistant
         location: Tehran, Iran
         start_date: 2024-07
         end_date: 2024-09
-        summary: "Worked under the supervision of Prof. Saeed Bagheri on a smart socket switch for a custom AI platform with commercialization potential."
+        summary: "Supervisor: Prof. Saeed Bagheri Shouraki."
         highlights:
-          - "Explored IoT platforms and networking solutions for intelligent devices."
-          - "Worked with Arduino and ESP32/8266-based systems."
+          - "Designed and built a smart IoT socket for the lab's custom AI platform, with a path toward commercialization."
+          - "Evaluated IoT platforms and network protocols, then implemented firmware on Arduino and ESP32/ESP8266."
+
+    Teaching Experience:
+      - company: Sharif University of Technology
+        position: Laboratory Teaching Assistant
+        location: Tehran, Iran
+        start_date: 2023-09
+        end_date: 2024-01
+        summary: "Logic Circuits and Digital Systems Lab, Fall 2023."
 
       - company: Sharif University of Technology
-        position: Teaching Assistant / Laboratory Teaching Assistant
+        position: Teaching Assistant
         location: Tehran, Iran
         start_date: 2022-09
         end_date: 2025-12
-        summary: "Supported several electrical engineering and programming courses through teaching classes, assignments, projects, and laboratory sessions."
+        summary: "Supported lectures, assignments, projects, and grading across electrical engineering and programming courses."
         highlights:
-          - "Engineering Probability and Statistics (Project) — Fall 2025"
-          - "Logic Circuit and Digital Systems (Assignments) — Fall 2024"
-          - "Mathematical Methods in Engineering (Assignments) — Spring 2024"
-          - "Communication Systems (Projects) — Spring 2024"
-          - "Logic Circuit and Digital Systems (Assignments) — Spring 2024"
-          - "Logic Circuit and Digital Systems (Lab TA) — Fall 2023"
-          - "Logic Circuit and Digital Systems (Assignments) — Fall 2023"
-          - "Object-Oriented Programming (Project) — Spring 2023"
-          - "Basic Programming (Teaching Class) — Fall 2022"
+          - "Engineering Probability and Statistics — Fall 2025"
+          - "Logic Circuits and Digital Systems — four terms, 2023–2024"
+          - "Mathematical Methods in Engineering — Spring 2024"
+          - "Communication Systems — Spring 2024"
+          - "Object-Oriented Programming — Spring 2023"
+          - "Basic Programming — Fall 2022"
 
     Awards:
-      - title: "Fully Funded Admission to Sharif University of Technology"
-        authors:
-          - "Sharif University of Technology"
-        date: 2021
-        awarder: "Sharif University of Technology"
-        summary: "Accepted to the first-ranked university in Iran with a fully funded scholarship."
-
-      - title: "National Universities Entrance Exam (Konkour)"
-        authors:
-          - "National Entrance Examination"
+      - title: "National University Entrance Exam (Konkour)"
         date: 2021
         awarder: "National Entrance Examination"
-        summary: "Ranked in the top 0.1% among 180,000 participants."
+        summary: "Ranked in the top 0.1% of about 180,000 participants and admitted to Sharif University of Technology with a fully funded scholarship."
 
       - title: "Academic Standing"
-        authors:
-          - "Sharif University of Technology"
         date: 2025
         awarder: "Sharif University of Technology"
-        summary: "Ranked in the top 15% cumulative GPA among B.Sc. EE students of the 2021 class, including top 3 in the Digital Systems major."
+        summary: "Top 15% cumulative GPA among B.Sc. Electrical Engineering students of the 2021 class, including top 3 in Digital Systems."
 
     Publications:
-      - title: "Enhancing Skin Cancer Diagnosis Using Late Discrete Wavelet Transform and New Swarm-Based Optimizers"
+      - title: "Distilling Vision-Language Models for On-Device Fire Understanding"
         authors:
-          - "R. Mousa"
-          - "Mohammad Morsali"
-          - "S. Chamani"
           - "Mohammad Kazzazi"
-          - "P. Hatami"
-          - "S. Sarabi"
-        publisher: "Machine Learning with Applications (Elsevier)"
-        releaseDate: 2026-03
-        url: "https://www.sciencedirect.com/science/article/pii/S266682702500194X"
-        summary: "Published work on improving skin cancer diagnosis using late discrete wavelet transform and swarm-based optimization methods."
+          - "Zixuan Liu"
+          - "Siavash Khajavi"
+        publisher: "arXiv preprint arXiv:2609.05782. Submitted to AAAI 2027 Innovative Applications of AI (IAAI)"
+        releaseDate: 2026-09
+        url: "https://arxiv.org/abs/2609.05782"
+        summary: "Teacher–student distillation of domain-specialized VLMs for on-device fire understanding, with deployment on a commercial Detectium sensor."
 
-      - title: "Minimal-Sensor TDOA/FDOA Fusion for Moving-Source IoT Localization: A Closed-Form, Two-Stage, Low-Complexity Estimator"
+      - title: "CLEAR: A Closed-Form Minimal-Sensor TDOA/FDOA Estimator for Moving-Source IoT Localization"
         authors:
           - "Mohammad Kazzazi"
           - "Mohammad Morsali"
-          - "R. Amiri"
-        publisher: "arXiv"
+          - "Rouhollah Amiri"
+        publisher: "arXiv preprint arXiv:2510.04160. Submitted to IEEE Transactions on Aerospace and Electronic Systems"
         releaseDate: 2025-10
         url: "https://arxiv.org/abs/2510.04160"
-        summary: "Preprint on source localization for moving-source IoT systems using a closed-form two-stage estimator."
+        summary: "A closed-form two-stage TDOA/FDOA estimator for moving-source IoT localization with a minimal sensor set."
 
-    In-Progress:
-      - title: "Towards Smart Manufacturing: Vision-Language Models for Worker Assistance in Packing Tasks"
-        publisher: "Aalto University"
-        releaseDate: "Present"
-        summary: "Ongoing research on applying vision-language models to worker assistance in manufacturing and packing settings."
-
-      - title: "A Cost–Utility Framework for AI Model Selection in Operations Management"
-        publisher: "Aalto University"
-        releaseDate: "Present"
-        summary: "Ongoing research on principled AI model selection for operations management applications."
+      - title: "Enhancing Skin Cancer Diagnosis Using Late Discrete Wavelet Transform and New Swarm-Based Optimizers"
+        authors:
+          - "Ramin Mousa"
+          - "Saeed Chamani"
+          - "Mohammad Morsali"
+          - "Mohammad Kazzazi"
+          - "Parsa Hatami"
+          - "Soroush Sarabi"
+        publisher: "Machine Learning with Applications (Elsevier)"
+        releaseDate: 2026-03
+        url: "https://doi.org/10.1016/j.mlwa.2025.100811"
+        summary: "Medical image analysis for skin cancer diagnosis using late discrete wavelet transform and swarm-based optimization."
 
     Skills:
+      - name: Machine Learning and Computer Vision
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords:
+          - PyTorch
+          - Hugging Face Transformers
+          - OpenCV
+          - Ultralytics YOLO
+          - scikit-learn
+          - VLMs/VLAs
+          - generative models
+          - knowledge distillation
+          - object detection
+          - multi-object tracking
+          - on-device inference
+
       - name: Programming
         level: Advanced
         icon: fa-solid fa-code
-        keywords: "Python (OpenCV, PyTorch, scikit-learn, pandas), Java, Verilog, C/C++, LaTeX"
+        keywords:
+          - Python
+          - C/C++
+          - CUDA
+          - Verilog
+          - Java
+          - MATLAB
+          - Assembly
 
-      - name: Additional Technical Skills
-        level: Intermediate
+      - name: Hardware and Systems
+        level: Advanced
         icon: fa-solid fa-microchip
-        keywords: "CUDA, Assembly, HTML/CSS, MySQL, Git"
+        keywords:
+          - Vivado
+          - Xilinx ISE
+          - ModelSim
+          - LTspice
+          - Zynq FPGA
+          - Raspberry Pi
+          - Arduino
+          - ESP32/ESP8266
 
-      - name: Software and Hardware Tools
+      - name: Tools
         level: Advanced
         icon: fa-solid fa-screwdriver-wrench
-        keywords: "MATLAB, Xilinx ISE Design Suite, ModelSim, Vivado, LTSPICE, Arduino IDE, Arduino Uno, ESP32/8266"
-
-      - name: Soft Skills
-        level: Strong
-        icon: fa-solid fa-people-group
-        keywords: "Team player, Excellent communication, Work ethic, Empathy, Active listening"
+        keywords:
+          - NumPy
+          - pandas
+          - Git
+          - Linux
+          - MySQL
+          - LaTeX
 
     Languages:
       - name: Persian
-        summary: "Native proficiency"
+        summary: "Native"
 
       - name: English
-        summary: "Fluent (TOEFL Score: 105)"
+        summary: "Fluent (TOEFL iBT 105)"
 
       - name: Spanish
         summary: "A1"
 
     Interests:
-      - name: Research Interests
+      - name: Research
         icon: fa-solid fa-brain
-        keywords: "Deep Learning, Artificial Neural Networks, Statistical Machine Learning, Optimization, LLM/VLM, Communication Systems, Localization, Signal Processing, Computer Vision, Medical Image Analysis, AI Accelerator, FPGA Acceleration for Neural Networks"
+        keywords:
+          - Computer vision
+          - vision-language models
+          - vision-language-action models
+          - efficient and on-device deep learning
+          - generative models
+          - trustworthy machine learning
+          - GPU computing
+          - FPGA acceleration
 
-      - name: Personal Interests
+      - name: Personal
         icon: fa-solid fa-heart
-        keywords: "Football, Volleyball, Gym, Travel, Culture, Classical Persian music, Guitar"
+        keywords:
+          - Football
+          - volleyball
+          - gym
+          - travel
+          - sitcoms
+          - classical Persian music
+          - guitar
 
     Projects:
-      - name: Membership Inference Attack against Diffusion Models
-        summary: "Course project in machine learning security and privacy."
+      - name: Football Object Detection and Multi-Object Tracking
+        summary: "Fine-tuned YOLOv8 on SportsMOT football video and built tracking with ByteTrack, DeepSORT, and CSRT, including occlusion and ID-switch analysis."
+        highlights:
+          - "mAP@50 0.947, mAP@50–95 0.779, precision 0.93, recall 0.94; 1.4 ms inference per frame on a P100 GPU."
 
-      - name: Machine Unlearning & Membership Inference Attack
-        summary: "Project focused on privacy, data removal, and model behavior."
+      - name: Membership Inference Attacks Against Diffusion Models
+        summary: "Re-implemented SecMI (ICML 2023) on CIFAR-100 DDPMs and proposed a hyperparameter-free multi-timestep fusion variant."
+        highlights:
+          - "Raised attack AUC from 0.971 to 0.984 and TPR@1% FPR from 0.519 to 0.642."
 
-      - name: Soccer Object Detection using YOLOv8
-        summary: "Computer vision project on sports object detection."
+      - name: Machine Unlearning and Private Training
+        summary: "Implemented SISA sharded training with ResNet-18 on CIFAR-10 and verified unlearning with backdoor success rate and membership inference."
 
-      - name: Graph Networks & Clustering
-        summary: "Project on graph-based learning and clustering methods."
-
-      - name: Digital Telecommunication System Simulation
-        summary: "Simulation project in communication systems."
-
-      - name: Cordic Algorithm using ZynQ FPGA
-        summary: "Hardware-oriented implementation project using FPGA systems."
-
-      - name: FFT using ZynQ FPGA
-        summary: "FPGA-based implementation of FFT."
-
-      - name: Parallel Merge Sort Algorithm with GPU
-        summary: "Parallel computing project using GPU acceleration."
-
-      - name: Heat Transformation by Texture Memory (CUDA)
-        summary: "CUDA project using texture memory for accelerated computation."
+      - name: Hardware and Parallel Computing
+        summary: "CORDIC and FFT on Zynq FPGA, a multi-cycle MIPS processor, parallel merge sort and heat-transfer simulation in CUDA, and a digital telecommunication system simulation."
 
     References:
       - name: Prof. R. Amiri
@@ -212,6 +246,10 @@ cv:
       - name: Prof. S. Bagheri Shouraki
         icon: fa-solid fa-user-tie
         reference: "Full Professor, Electrical Engineering Department, Sharif University of Technology — bagheri-s@sharif.edu"
+
+      - name: Prof. S. Khajavi Haghighat
+        icon: fa-solid fa-user-tie
+        reference: "Assistant Professor, Industrial Engineering and Management, Aalto University — siavash.khajavi@aalto.fi"
 
       - name: Dr. S. Sarabi
         icon: fa-solid fa-user-tie

@@ -1,0 +1,155 @@
+/*******************************************************************************
+ * Site-specific polish for the personal academic homepage
+ ******************************************************************************/
+
+.post-header {
+  .post-title {
+    letter-spacing: -0.02em;
+  }
+
+  .desc {
+    color: var(--global-text-color-light);
+    font-size: 1.05rem;
+    margin-top: 0.35rem;
+  }
+}
+
+.profile {
+  .more-info {
+    font-family: inherit;
+    text-align: center;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
+    line-height: 1.4;
+  }
+
+  img.rounded-circle {
+    border: 3px solid var(--global-theme-color);
+    box-shadow: 0 10px 28px rgba(15, 118, 110, 0.18);
+  }
+}
+
+.about-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.about-highlights .highlight-card {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 0.85rem 0.9rem;
+  text-align: center;
+}
+
+.about-highlights strong {
+  display: block;
+  color: var(--global-theme-color);
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.about-highlights span {
+  display: block;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 1.5rem;
+}
+
+.research-tags li {
+  background: rgba(15, 118, 110, 0.12);
+  border: 1px solid rgba(15, 118, 110, 0.28);
+  border-radius: 999px;
+  color: var(--global-theme-color);
+  font-size: 0.86rem;
+  font-weight: 500;
+  padding: 0.3rem 0.8rem;
+}
+
+.news {
+  table {
+    th {
+      color: var(--global-theme-color);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+  }
+}
+
+.projects {
+  .card {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 14px;
+    overflow: hidden;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  a:hover .card {
+    border-color: rgba(15, 118, 110, 0.45);
+    box-shadow: 0 10px 28px rgba(15, 118, 110, 0.12);
+    transform: translateY(-4px);
+  }
+
+  .card-title {
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-text {
+    color: var(--global-text-color-light);
+  }
+
+  h2.category {
+    color: var(--global-text-color);
+    font-size: 1.35rem;
+    letter-spacing: -0.01em;
+  }
+}
+
+.cv .card {
+  border-radius: 12px;
+}
+
+html[data-theme="dark"] {
+  .research-tags li {
+    background: rgba(38, 152, 186, 0.16);
+    border-color: rgba(38, 152, 186, 0.38);
+  }
+
+  .profile img.rounded-circle {
+    box-shadow: 0 10px 28px rgba(38, 152, 186, 0.22);
+  }
+
+  .projects a:hover .card {
+    border-color: rgba(38, 152, 186, 0.5);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@media (max-width: 767px) {
+  .about-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .profile.float-right,
+  .profile.float-left {
+    float: none;
+    margin: 0 auto 1.25rem;
+    max-width: 220px;
+  }
+}

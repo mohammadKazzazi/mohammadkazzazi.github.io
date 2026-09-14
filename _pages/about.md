@@ -2,43 +2,71 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.Sc. Student in Electrical and Electronic Engineering, EPFL
+subtitle: M.Sc. Student in Electrical Engineering, EPFL
 
 profile:
   align: right
   image: Profile.jpg
-  image_circular: true # crops the image to make it circular
-   # more_info: >
-#   <p>555 your office number</p>
-#   <p>123 your address street</p>
-#   <p>Your City, State 12345</p>
+  image_circular: true
+  more_info: >
+    <p>EPFL</p>
+    <p>Lausanne, Switzerland</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 6 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 6
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-I graduated with a B.Sc. in Electrical Engineering from Sharif University of Technology, where I studied in the Digital Systems branch. I am now starting my M.Sc. in Electrical Engineering at EPFL.
+I am an M.Sc. student in Electrical Engineering at [EPFL](https://www.epfl.ch/), working at the intersection of **computer vision**, **vision-language models**, and **efficient on-device AI**. I completed my B.Sc. in Electrical Engineering, Digital Systems, at [Sharif University of Technology](https://www.sharif.edu/).
 
-During my undergraduate studies, I completed my B.Sc. thesis under the supervision of [Prof. R. Amiri](https://scholar.google.com/citations?hl=en&user=sOUZ3cUAAAAJ&view_op=list_works&sortby=pubdate). I was also a Research Assistant at the Artificial Creature Laboratory under the supervision of [Prof. Saeed Bagheri](https://scholar.google.com/citations?user=nR98aV4AAAAJ&hl=en).
+My recent research asks a practical question: how can large multimodal models be compressed so they still reason reliably on small devices? At Aalto University, I distilled vision-language models for fire understanding and deployed them on embedded hardware. I have also worked on medical image analysis, IoT localization, and FPGA/GPU implementations.
 
-I am interested in developing intelligent systems that connect machine learning with practical real-world applications.
+<div class="about-highlights">
+  <div class="highlight-card">
+    <strong>EPFL</strong>
+    <span>M.Sc. Electrical Engineering</span>
+  </div>
+  <div class="highlight-card">
+    <strong>18.53 / 20</strong>
+    <span>B.Sc. GPA at Sharif, top 3 in Digital Systems</span>
+  </div>
+  <div class="highlight-card">
+    <strong>On-device VLMs</strong>
+    <span>First-author submission to AAAI 2027 IAAI</span>
+  </div>
+</div>
 
-## Research Interests
+## Research interests
 
-- Deep Learning and Neural Networks
-- Statistical Machine Learning and Optimization
-- Large Language Models (LLMs) and Vision-Language Models (VLMs)
-- Communication Systems and Signal Processing
-- AI Accelerators and FPGA Acceleration for Neural Networks
+I like building systems that connect modern learning methods to constraints that show up outside the lab: memory, latency, sensors, and reliability.
 
-Beyond research, I enjoy football, volleyball, traveling, exploring new cultures, and movies(particularly sitcoms).
+<ul class="research-tags">
+  <li>Computer Vision</li>
+  <li>Vision-Language Models</li>
+  <li>Vision-Language-Action Models</li>
+  <li>On-Device AI</li>
+  <li>Generative Models</li>
+  <li>Trustworthy ML</li>
+  <li>GPU &amp; FPGA Acceleration</li>
+</ul>
+
+I wrote my B.Sc. thesis with [Prof. R. Amiri](https://scholar.google.com/citations?hl=en&user=sOUZ3cUAAAAJ&view_op=list_works&sortby=pubdate) and was a research assistant at the Artificial Creature Laboratory with [Prof. Saeed Bagheri Shouraki](https://scholar.google.com/citations?user=nR98aV4AAAAJ&hl=en). I currently work remotely with [Prof. Siavash Khajavi](https://www.aalto.fi/en/people/siavash-khajavi-haghighat) at Aalto University.
+
+Outside research, I enjoy football, volleyball, travel, and sitcoms.
+
+## Selected projects
+
+A few pieces of work that represent how I like to build things. The [projects page]({{ '/projects/' | relative_url }}) has the full list.
+
+- [Distilling VLMs for on-device fire understanding]({{ '/projects/vlm-distillation/' | relative_url }}) — compressing a 7B vision-language teacher for embedded fire sensors.
+- [Football detection and tracking]({{ '/projects/football-tracking/' | relative_url }}) — YOLOv8, ByteTrack, and DeepSORT on broadcast football video.
+- [Hardware and parallel computing]({{ '/projects/hardware-systems/' | relative_url }}) — FPGA, CUDA, and digital systems projects from my Sharif years.
