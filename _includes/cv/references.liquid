@@ -1,5 +1,7 @@
 {% comment %}
   Unified references entry renderer for both formats
+  - RenderCV NormalEntry: name, summary
+  - JSONResume: name, reference, icon
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
@@ -9,7 +11,12 @@
         <i class="{{ entry.icon }}"></i>
       {% endif %}
       <strong>{{ entry.name }}</strong>
-      <p>{{ entry.reference | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% capture reference_text %}
+        {% if entry.reference %}{{ entry.reference }}{% elsif entry.summary %}{{ entry.summary }}{% endif %}
+      {% endcapture %}
+      {% if reference_text != '' %}
+        <p>{{ reference_text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>

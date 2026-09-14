@@ -1,5 +1,7 @@
 {% comment %}
   Unified interests entry renderer for both formats
+  - RenderCV OneLineEntry: label, details
+  - JSONResume: name, keywords, icon
 {% endcomment %}
 
 <div class="card-text font-weight-light">
@@ -8,8 +10,13 @@
       {% if entry.icon %}
         <i class="{{ entry.icon }}"></i>
       {% endif %}
-      <strong>{{ entry.name }}:</strong>
-      {% if entry.keywords %}
+      {% capture interest_name %}
+        {% if entry.label %}{{ entry.label }}{% elsif entry.name %}{{ entry.name }}{% endif %}
+      {% endcapture %}
+      <strong>{{ interest_name | strip }}:</strong>
+      {% if entry.details %}
+        {{ entry.details }}
+      {% elsif entry.keywords %}
         {% for keyword in entry.keywords %}
           {% if forloop.last %}
             {{ keyword }}

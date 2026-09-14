@@ -1,33 +1,32 @@
 cv:
   name: "Seyed Mohammad Ojagh Kazazi"
-  label: "M.Sc. Student in Electrical Engineering at EPFL"
+  headline: "M.Sc. Student in Electrical Engineering at EPFL"
   email: smohammadok@gmail.com
   location: "Lausanne, Switzerland"
   website: "https://mohammadkazzazi.github.io"
-  image: ""
-  summary: "Electrical engineer and M.Sc. student at EPFL working on computer vision, vision-language models, and efficient on-device AI. My work spans research, teaching, and hardware-aware systems, with a focus on models that remain accurate under real memory, latency, and reliability constraints."
 
   sections:
+    Summary:
+      - "Electrical engineer and M.Sc. student at EPFL working on computer vision, vision-language models, and efficient on-device AI. My work spans research, teaching, and hardware-aware systems, with a focus on models that remain accurate under real memory, latency, and reliability constraints."
+
     Education:
       - institution: École Polytechnique Fédérale de Lausanne (EPFL)
         location: Lausanne, Switzerland
         area: Electrical Engineering
-        studyType: M.Sc.
+        degree: M.Sc.
         start_date: 2026-09
         end_date: present
-        url: "https://www.epfl.ch/"
         highlights:
           - "Fall 2026 coursework: Machine Learning, Mathematics of Data, Convex Optimization, Fundamentals of Inference and Learning."
 
       - institution: Sharif University of Technology
         location: Tehran, Iran
         area: Electrical Engineering (Digital Systems)
-        studyType: B.Sc.
+        degree: B.Sc.
         start_date: 2021-09
         end_date: 2025
-        score: "18.53/20 (3.95/4)"
-        url: "https://www.sharif.edu/"
         highlights:
+          - "GPA: 18.53/20 (3.95/4)."
           - "Top 15% of the B.Sc. Electrical Engineering class and top 3 in Digital Systems."
           - "Selected graduate-level courses: Deep Learning (17.2), Deep Generative Models (17.2), Convex Optimization II (19.7), Parallel Computing (18.4), VLSI (19.1)."
           - "Selected undergraduate courses: Linear Algebra / Mathematical Methods (20), Data Structures and Algorithms (19.5), Communication Systems (19), ASIC/FPGA System Design (17.2), Introduction to Machine Learning (17.9)."
@@ -38,7 +37,6 @@ cv:
         location: Espoo, Finland (remote)
         start_date: 2026-04
         end_date: present
-        url: "https://www.aalto.fi/"
         summary: "Supervisor: Prof. Siavash Khajavi."
         highlights:
           - "Developed a knowledge-distillation framework combining KL-divergence and cross-entropy supervision to compress a 7B Qwen2.5 vision-language teacher into 0.5B–3B student models."
@@ -90,34 +88,36 @@ cv:
           - "Basic Programming — Fall 2022"
 
     Awards:
-      - title: "National University Entrance Exam (Konkour)"
+      - name: "National University Entrance Exam (Konkour)"
         date: 2021
-        awarder: "National Entrance Examination"
+        location: National Entrance Examination
         summary: "Ranked in the top 0.1% of about 180,000 participants and admitted to Sharif University of Technology with a fully funded scholarship."
 
-      - title: "Academic Standing"
+      - name: "Academic Standing"
         date: 2025
-        awarder: "Sharif University of Technology"
+        location: Sharif University of Technology
         summary: "Top 15% cumulative GPA among B.Sc. Electrical Engineering students of the 2021 class, including top 3 in Digital Systems."
 
     Publications:
       - title: "Distilling Vision-Language Models for On-Device Fire Understanding"
         authors:
-          - "Mohammad Kazzazi"
+          - "**Mohammad Kazzazi**"
           - "Zixuan Liu"
           - "Siavash Khajavi"
-        publisher: "arXiv preprint arXiv:2609.05782. Submitted to AAAI 2027 Innovative Applications of AI (IAAI)"
-        releaseDate: 2026-09
+        journal: "arXiv preprint arXiv:2609.05782. Submitted to AAAI 2027 Innovative Applications of AI (IAAI)"
+        date: 2026-09
+        doi: "10.48550/arXiv.2609.05782"
         url: "https://arxiv.org/abs/2609.05782"
         summary: "Teacher–student distillation of domain-specialized VLMs for on-device fire understanding, with deployment on a commercial Detectium sensor."
 
       - title: "CLEAR: A Closed-Form Minimal-Sensor TDOA/FDOA Estimator for Moving-Source IoT Localization"
         authors:
-          - "Mohammad Kazzazi"
+          - "**Mohammad Kazzazi**"
           - "Mohammad Morsali"
           - "Rouhollah Amiri"
-        publisher: "arXiv preprint arXiv:2510.04160. Submitted to IEEE Transactions on Aerospace and Electronic Systems"
-        releaseDate: 2025-10
+        journal: "arXiv preprint arXiv:2510.04160. Submitted to IEEE Transactions on Aerospace and Electronic Systems"
+        date: 2025-10
+        doi: "10.48550/arXiv.2510.04160"
         url: "https://arxiv.org/abs/2510.04160"
         summary: "A closed-form two-stage TDOA/FDOA estimator for moving-source IoT localization with a minimal sensor set."
 
@@ -126,100 +126,44 @@ cv:
           - "Ramin Mousa"
           - "Saeed Chamani"
           - "Mohammad Morsali"
-          - "Mohammad Kazzazi"
+          - "**Mohammad Kazzazi**"
           - "Parsa Hatami"
           - "Soroush Sarabi"
-        publisher: "Machine Learning with Applications (Elsevier)"
-        releaseDate: 2026-03
+        journal: "Machine Learning with Applications (Elsevier)"
+        date: 2026-03
+        doi: "10.1016/j.mlwa.2025.100811"
         url: "https://doi.org/10.1016/j.mlwa.2025.100811"
         summary: "Medical image analysis for skin cancer diagnosis using late discrete wavelet transform and swarm-based optimization."
 
     Skills:
-      - name: Machine Learning and Computer Vision
-        level: Advanced
-        icon: fa-solid fa-brain
-        keywords:
-          - PyTorch
-          - Hugging Face Transformers
-          - OpenCV
-          - Ultralytics YOLO
-          - scikit-learn
-          - VLMs/VLAs
-          - generative models
-          - knowledge distillation
-          - object detection
-          - multi-object tracking
-          - on-device inference
+      - label: Machine Learning and Computer Vision
+        details: "PyTorch, Hugging Face Transformers, OpenCV, Ultralytics YOLO, scikit-learn, VLMs/VLAs, generative models, knowledge distillation, object detection, multi-object tracking, on-device inference"
 
-      - name: Programming
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords:
-          - Python
-          - C/C++
-          - CUDA
-          - Verilog
-          - Java
-          - MATLAB
-          - Assembly
+      - label: Programming
+        details: "Python, C/C++, CUDA, Verilog, Java, MATLAB, Assembly"
 
-      - name: Hardware and Systems
-        level: Advanced
-        icon: fa-solid fa-microchip
-        keywords:
-          - Vivado
-          - Xilinx ISE
-          - ModelSim
-          - LTspice
-          - Zynq FPGA
-          - Raspberry Pi
-          - Arduino
-          - ESP32/ESP8266
+      - label: Hardware and Systems
+        details: "Vivado, Xilinx ISE, ModelSim, LTspice, Zynq FPGA, Raspberry Pi, Arduino, ESP32/ESP8266"
 
-      - name: Tools
-        level: Advanced
-        icon: fa-solid fa-screwdriver-wrench
-        keywords:
-          - NumPy
-          - pandas
-          - Git
-          - Linux
-          - MySQL
-          - LaTeX
+      - label: Tools
+        details: "NumPy, pandas, Git, Linux, MySQL, LaTeX"
 
     Languages:
-      - name: Persian
-        summary: "Native"
+      - label: Persian
+        details: Native
 
-      - name: English
-        summary: "Fluent (TOEFL iBT 105)"
+      - label: English
+        details: "Fluent (TOEFL iBT 105)"
 
-      - name: Spanish
-        summary: "A1"
+      - label: Spanish
+        details: A1
 
     Interests:
-      - name: Research
-        icon: fa-solid fa-brain
-        keywords:
-          - Computer vision
-          - vision-language models
-          - vision-language-action models
-          - efficient and on-device deep learning
-          - generative models
-          - trustworthy machine learning
-          - GPU computing
-          - FPGA acceleration
+      - label: Research
+        details: "Computer vision, vision-language models, vision-language-action models, efficient and on-device deep learning, generative models, trustworthy machine learning, GPU computing, FPGA acceleration"
 
-      - name: Personal
-        icon: fa-solid fa-heart
-        keywords:
-          - Football
-          - volleyball
-          - gym
-          - travel
-          - sitcoms
-          - classical Persian music
-          - guitar
+      - label: Personal
+        details: "Football, volleyball, gym, travel, sitcoms, classical Persian music, guitar"
 
     Projects:
       - name: Football Object Detection and Multi-Object Tracking
@@ -240,17 +184,13 @@ cv:
 
     References:
       - name: Prof. R. Amiri
-        icon: fa-solid fa-user-tie
-        reference: "Associate Professor, Electrical Engineering Department, Sharif University of Technology — amiri@sharif.edu"
+        summary: "Associate Professor, Electrical Engineering Department, Sharif University of Technology — amiri@sharif.edu"
 
       - name: Prof. S. Bagheri Shouraki
-        icon: fa-solid fa-user-tie
-        reference: "Full Professor, Electrical Engineering Department, Sharif University of Technology — bagheri-s@sharif.edu"
+        summary: "Full Professor, Electrical Engineering Department, Sharif University of Technology — bagheri-s@sharif.edu"
 
       - name: Prof. S. Khajavi Haghighat
-        icon: fa-solid fa-user-tie
-        reference: "Assistant Professor, Industrial Engineering and Management, Aalto University — siavash.khajavi@aalto.fi"
+        summary: "Assistant Professor, Industrial Engineering and Management, Aalto University — siavash.khajavi@aalto.fi"
 
       - name: Dr. S. Sarabi
-        icon: fa-solid fa-user-tie
-        reference: "Director, Raderon AI Lab — s.sarabi@raderonlab.ca"
+        summary: "Director, Raderon AI Lab — s.sarabi@raderonlab.ca"
