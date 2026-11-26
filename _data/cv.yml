@@ -6,7 +6,7 @@ cv:
 
   sections:
     Summary:
-      - "Electrical engineer and M.Sc. student at EPFL working on computer vision, vision-language models, and efficient on-device AI. My work spans research, teaching, and hardware-aware systems, with a focus on models that remain accurate under real memory, latency, and reliability constraints."
+      - "M.Sc. student in Electrical Engineering at EPFL working on computer vision and multimodal learning: vision-language and vision-language-action models, guidance for diffusion and flow models, and efficient on-device deployment. My work spans research, teaching, and hardware-aware systems, with a focus on models that remain accurate under real memory, latency, and reliability constraints."
 
     Education:
       - institution: École Polytechnique Fédérale de Lausanne (EPFL)
@@ -16,14 +16,14 @@ cv:
         start_date: 2026-09
         end_date: present
         highlights:
-          - "Fall 2026 coursework: Machine Learning, Mathematics of Data, Convex Optimization, Fundamentals of Inference and Learning."
+          - "Fall 2026 coursework: Machine Learning, Mathematics of Data, Convex Optimization, Fundamentals of Inference and Learning, Lab on App Development for Tablets and Smartphones."
 
       - institution: Sharif University of Technology
         location: Tehran, Iran
         area: Electrical Engineering (Digital Systems)
         degree: B.Sc.
         start_date: 2021-09
-        end_date: 2025
+        end_date: 2026-02
         highlights:
           - "GPA: 18.53/20 (3.95/4)."
           - "Top 15% of the B.Sc. Electrical Engineering class and top 3 in Digital Systems."
@@ -31,6 +31,19 @@ cv:
           - "Selected undergraduate courses: Linear Algebra / Mathematical Methods (20), Data Structures and Algorithms (19.5), Communication Systems (19), Introduction to Machine Learning (17.9), ASIC/FPGA System Design (17.2)."
 
     Experience:
+      - company: VITA Lab, EPFL
+        position: Volunteer Research Assistant
+        url: https://www.epfl.ch/labs/vita/
+        location: Lausanne, Switzerland
+        start_date: 2026-09
+        end_date: present
+        summary: "Guidance for diffusion and flow models, supervised by Yasaman Haghighi."
+        highlights:
+          - "Studying how classifier-free guidance affects approximation error in diffusion and flow models, using analytically tractable Gaussian mixtures."
+          - "Proposed a training-free guidance method that corrects conditional and unconditional predictions using the model's own clean-prediction history, with no additional network evaluations."
+          - "Improved image-generation quality with 25% fewer network evaluations; on text-to-video benchmarks, matched computationally expensive refinement methods with up to 46% fewer evaluations."
+          - "Submitted to CVPR 2027 (under review)."
+
       - company: Aalto University
         position: Research Assistant
         url: https://www.aalto.fi/en
@@ -42,7 +55,7 @@ cv:
           - "Developed a knowledge-distillation framework combining KL-divergence and cross-entropy supervision to compress a 7B Qwen2.5 vision-language teacher into 0.5B–3B student models."
           - "On DetectiumFire, the 0.5B student retained 95.2% of the teacher's burning-object accuracy with 14× fewer parameters and reached 99.5% fire/non-fire accuracy after deployment."
           - "Deployed and profiled distilled models on a Raspberry Pi 5 (4× Cortex-A76, 8 GB, CPU only): 1.9 GB peak memory, about 4 s end-to-end latency, and 2 false alarms on 1,452 test images."
-          - "First-author submission to AAAI 2027 Innovative Applications of AI (IAAI)."
+          - "Resulted in a first-author paper accepted at AAAI 2027 Innovative Applications of AI (IAAI)."
           - "Currently investigating prompt optimization and reasoning strategies for Vision-Language-Action models."
 
       - company: Raderon AI Laboratory
@@ -104,13 +117,13 @@ cv:
           - "**Mohammad Kazzazi**"
           - "Zixuan Liu"
           - "Siavash Khajavi"
-        journal: "arXiv preprint arXiv:2609.05782. Submitted to AAAI 2027 Innovative Applications of AI (IAAI)"
-        date: 2026-09
+        journal: "AAAI 2027, Innovative Applications of Artificial Intelligence (IAAI)"
+        date: 2027
         doi: "10.48550/arXiv.2609.05782"
         url: "https://arxiv.org/abs/2609.05782"
         summary: "Teacher–student distillation of domain-specialized VLMs for on-device fire understanding, with deployment on a commercial Detectium sensor."
 
-      - title: "CLEAR: A Closed-Form Minimal-Sensor TDOA/FDOA Estimator for Moving-Source IoT Localization"
+      - title: "Minimal-Sensor TDOA/FDOA Fusion for Moving-Source IoT Localization: A Closed-Form, Two-Stage, Low-Complexity Estimator"
         authors:
           - "**Mohammad Kazzazi**"
           - "Mohammad Morsali"
@@ -160,7 +173,7 @@ cv:
 
     Interests:
       - label: Research
-        details: "Computer vision, vision-language and vision-language-action models, efficient and on-device deep learning, AI/FPGA accelerators for neural networks, GPU computing and parallel architectures, generative models, trustworthy machine learning"
+        details: "Vision-language models, vision-language-action models and embodied reasoning, on-device and edge deployment of multimodal models, trustworthy and private multimodal AI, video understanding (detection and multi-object tracking), medical image analysis"
 
       - label: Personal
         details: "Football, volleyball, gym, travel, sitcoms, classical Persian music, guitar"
