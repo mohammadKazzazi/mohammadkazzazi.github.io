@@ -198,16 +198,3 @@ cv:
       - name: Hardware and Parallel Computing
         url: https://mohammadkazzazi.github.io/projects/hardware-systems/
         summary: "CORDIC and FFT on Zynq FPGA (Verilog, Vivado), a multi-cycle MIPS processor, parallel merge sort and heat-transfer simulation with texture memory in CUDA, and a digital telecommunication system simulation."
-
-    References:
-      - name: Prof. R. Amiri
-        summary: "Associate Professor, Electrical Engineering Department, Sharif University of Technology — amiri@sharif.edu"
-
-      - name: Prof. S. Bagheri Shouraki
-        summary: "Full Professor, Electrical Engineering Department, Sharif University of Technology — bagheri-s@sharif.edu"
-
-      - name: Prof. S. Khajavi Haghighat
-        summary: "Assistant Professor, Industrial Engineering and Management, Aalto University — siavash.khajavi@aalto.fi"
-
-      - name: Dr. S. Sarabi
-        summary: "Director, Raderon AI Lab — s.sarabi@raderonlab.ca"
